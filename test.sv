@@ -9,9 +9,7 @@ module test(
     logic clk;
     assign clk = CLOCK_50;
     assign testything = CLOCK_50;
-
-    logic onOff;
-    logic [11:0] magnitude;
+    logic [12:0] magnitude;
 
     servo servo_0 (.*); // 50MHz clock
 
