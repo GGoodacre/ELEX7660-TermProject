@@ -16,6 +16,26 @@
 					"strict" : false
 				},
 				{
+					"name" : "servo_pulse[0]",
+					"strict" : false
+				},
+				{
+					"name" : "servo_pulse[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sqrt_busy",
+					"strict" : false
+				},
+				{
+					"name" : "sqrt_valid",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_CLK1_50",
+					"strict" : false
+				},
+				{
 					"name" : "reset_n",
 					"strict" : false
 				}

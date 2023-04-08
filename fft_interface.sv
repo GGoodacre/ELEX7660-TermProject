@@ -17,7 +17,9 @@ module fft_interface
     //ADC
     output logic ADC_CONVST, ADC_SCK, ADC_SDI,
     input logic ADC_SDO,
-    input logic [2:0] ADC_channel
+    input logic [2:0] ADC_channel,
+    output logic o_sqrt_busy,
+    output logic o_sqrt_valid
 );
 
 // ADC MODULE
@@ -71,14 +73,17 @@ fft fft_0 (
 assign sink_error = 2'b00;
 
 // SQRT
-logic sqrt_start;
-logic sqrt_busy;
-logic sqrt_valid;
-logic [11:0] sqrt_rad;
-logic [11:0] sqrt_root;
-logic [11:0] sqrt_rem;
+logic           sqrt_start;
+logic           sqrt_busy;
+logic           sqrt_valid;
+logic [24:0]    sqrt_rad;
+logic [24:0]    sqrt_root;
+logic [24:0]    sqrt_rem;
 
-sqrt_int #(.WIDTH(12)) sqrt_0 (
+assign o_sqrt_busy = sqrt_busy;
+assign o_sqrt_valid = sqrt_valid;
+
+sqrt_int #(.WIDTH(25)) sqrt_0 (
         .clk    (clk),
         .start  (sqrt_start),
         .busy   (sqrt_busy),
@@ -93,30 +98,31 @@ sqrt_int #(.WIDTH(12)) sqrt_0 (
 logic [31:0] sample_count;
 logic [11:0] samples [0:7];
 
+// Samples the ADC every 1/FS seconds and initiates a FFT 
 always_ff @(posedge clk or negedge reset_n) 
 begin
-    if(~reset_n)
+    if(~reset_n) // Asyncronous Reset
     begin
         sample_count <= 0; 
         sink_sop <= 0;
         sink_valid <= 0;
         samples <= '{default: '0};
     end
-    else if (sample_count >= FCLK-FS*2) 
+    else if (sample_count >= FCLK-FS) //Clock Divider Samples every 1/FS seconds
     begin
         sample_count <= 0;
         //Samples Shift
-        samples[1:7] <= samples[0:6];
-        samples[0] <= ADC_result; 
+        samples[1:7] <= samples[0:6]; //Shifts Samples over
+        samples[0] <= ADC_result;  //Inputs latest sampled point
         //Start FFT
-        sink_sop <= 1;
+        sink_sop <= 1; //
         sink_valid <= 1;
     end
     else if (sample_count >= 7)
         sink_valid <= 0;
     else 
     begin
-        sample_count <= sample_count + FS*2;
+        sample_count <= sample_count + FS;
         sink_sop <= 0;
     end
 end
@@ -124,6 +130,7 @@ end
 // FFT SINK
 logic [2:0] current_sample;
 
+// Input into the FFT module
 always_ff @(posedge clk or negedge reset_n)
 begin
     if(~reset_n)
@@ -185,15 +192,18 @@ always_ff @(posedge clk or negedge reset_n) begin
     if(~reset_n)
     begin
         mag_count <= 0;
-        sqrt_start <= 0;
+        sqrt_start <= 1;
         sqrt_rad <= 0;
         mag = '{default: '0};
     end
     else if(~sqrt_busy)
     begin
-        mag[mag_count] <= sqrt_root;
+        if(sqrt_valid) 
+        begin
+              mag[mag_count-1] <= 300;
+        end
         sqrt_start <= 1;
-        sqrt_rad <= fft_result[mag_count][28:17]**2 + fft_result[mag_count][16:5]**2;
+        sqrt_rad <= fft_result[mag_count][28:17]**2 + fft_result[mag_count][16:5]**2 + 2000**2;
         mag_count = mag_count++;
     end
     else
@@ -201,5 +211,6 @@ always_ff @(posedge clk or negedge reset_n) begin
         sqrt_start <= 0;
     end
 end
+
 
 endmodule

@@ -1,5 +1,5 @@
 Flow report for ELEX7660-TermProject
-Fri Apr 07 15:51:19 2023
+Fri Apr 07 19:27:44 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,24 +40,24 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Apr 07 15:51:12 2023       ;
+; Flow Status                     ; Successful - Fri Apr 07 19:27:37 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; ELEX7660-TermProject                        ;
-; Top-level Entity Name           ; toplevel_fft_test                           ;
+; Top-level Entity Name           ; ELEX7660_TermProject                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA4U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 116 / 15,880 ( < 1 % )                      ;
-; Total registers                 ; 163                                         ;
-; Total pins                      ; 6 / 314 ( 2 % )                             ;
+; Logic utilization (in ALMs)     ; 249 / 15,880 ( 2 % )                        ;
+; Total registers                 ; 273                                         ;
+; Total pins                      ; 13 / 314 ( 4 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 2,764,800 ( 0 % )                       ;
-; Total DSP Blocks                ; 0 / 84 ( 0 % )                              ;
+; Total DSP Blocks                ; 2 / 84 ( 2 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 1 / 5 ( 20 % )                              ;
+; Total PLLs                      ; 0 / 5 ( 0 % )                               ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
@@ -67,35 +67,35 @@ refer to the applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 04/07/2023 15:49:56  ;
+; Start date & time ; 04/07/2023 19:26:07  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; ELEX7660-TermProject ;
 +-------------------+----------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                    ;
-+-------------------------------------+-------------------------------------------------------+----------------------+-------------------+------------+
-; Assignment Name                     ; Value                                                 ; Default Value        ; Entity Name       ; Section Id ;
-+-------------------------------------+-------------------------------------------------------+----------------------+-------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 174508020742005.168090779604028                       ; --                   ; --                ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --                   ; --                ; --         ;
-; MESSAGE_DISABLE                     ; 270007                                                ; --                   ; fft_fft_ii_0      ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                                     ; --                   ; --                ; --         ;
-; MISC_FILE                           ; fft/synthesis/../fft.cmp                              ; --                   ; --                ; --         ;
-; MISC_FILE                           ; fft/synthesis/../../fft.qsys                          ; --                   ; --                ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                ; --                   ; toplevel_fft_test ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                ; --                   ; toplevel_fft_test ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                ; --                   ; toplevel_fft_test ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                   ; --                   ; --                ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                 ; --                   ; --                ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                          ; --                   ; --                ; --         ;
-; SLD_FILE                            ; fft/synthesis/fft.debuginfo                           ; --                   ; --                ; --         ;
-; SLD_INFO                            ; QSYS_NAME fft HAS_SOPCINFO 1 GENERATION_ID 1680894972 ; --                   ; fft               ; --         ;
-; SOPCINFO_FILE                       ; fft/synthesis/../../fft.sopcinfo                      ; --                   ; --                ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --                   ; --                ; --         ;
-; TOP_LEVEL_ENTITY                    ; toplevel_fft_test                                     ; ELEX7660-TermProject ; --                ; --         ;
-+-------------------------------------+-------------------------------------------------------+----------------------+-------------------+------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                       ;
++-------------------------------------+-------------------------------------------------------+----------------------+----------------------+------------+
+; Assignment Name                     ; Value                                                 ; Default Value        ; Entity Name          ; Section Id ;
++-------------------------------------+-------------------------------------------------------+----------------------+----------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 84531185080963.168092076714276                        ; --                   ; --                   ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --                   ; --                   ; --         ;
+; MESSAGE_DISABLE                     ; 270007                                                ; --                   ; fft_fft_ii_0         ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                     ; --                   ; --                   ; --         ;
+; MISC_FILE                           ; fft/synthesis/../fft.cmp                              ; --                   ; --                   ; --         ;
+; MISC_FILE                           ; fft/synthesis/../../fft.qsys                          ; --                   ; --                   ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                ; --                   ; ELEX7660_TermProject ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                ; --                   ; ELEX7660_TermProject ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                ; --                   ; ELEX7660_TermProject ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                   ; --                   ; --                   ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                 ; --                   ; --                   ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                          ; --                   ; --                   ; --         ;
+; SLD_FILE                            ; fft/synthesis/fft.debuginfo                           ; --                   ; --                   ; --         ;
+; SLD_INFO                            ; QSYS_NAME fft HAS_SOPCINFO 1 GENERATION_ID 1680894972 ; --                   ; fft                  ; --         ;
+; SOPCINFO_FILE                       ; fft/synthesis/../../fft.sopcinfo                      ; --                   ; --                   ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                    ; --                   ; --                   ; --         ;
+; TOP_LEVEL_ENTITY                    ; ELEX7660_TermProject                                  ; ELEX7660-TermProject ; --                   ; --         ;
++-------------------------------------+-------------------------------------------------------+----------------------+----------------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -103,11 +103,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:41     ; 1.0                     ; 4946 MB             ; 00:00:36                           ;
-; Fitter               ; 00:00:24     ; 1.0                     ; 6341 MB             ; 00:00:34                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4828 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5108 MB             ; 00:00:05                           ;
-; Total                ; 00:01:16     ; --                      ; --                  ; 00:01:20                           ;
+; Analysis & Synthesis ; 00:00:46     ; 1.0                     ; 4946 MB             ; 00:00:39                           ;
+; Fitter               ; 00:00:31     ; 1.1                     ; 6299 MB             ; 00:00:39                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4832 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.2                     ; 5090 MB             ; 00:00:06                           ;
+; Total                ; 00:01:31     ; --                      ; --                  ; 00:01:29                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
