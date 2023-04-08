@@ -51,6 +51,23 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AH17 -to reset_n
+set_location_assignment PIN_U9 -to ADC_CONVST
+set_location_assignment PIN_V10 -to ADC_SCK
+set_location_assignment PIN_AC4 -to ADC_SDI
+set_location_assignment PIN_AD4 -to ADC_SDO
+set_location_assignment PIN_V11 -to FPGA_CLK1_50
+set_global_assignment -name SDC_FILE ELEX7660_TermProject.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE ELEX7660_TermProject.sv
+set_global_assignment -name SYSTEMVERILOG_FILE servo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE sqrt_int.sv
+set_global_assignment -name SYSTEMVERILOG_FILE fft_interface.sv
+set_global_assignment -name SYSTEMVERILOG_FILE adcinterface.sv
+set_global_assignment -name QIP_FILE fft/synthesis/fft.qip
+set_location_assignment PIN_AG28 -to servo_pulse[0]
+set_location_assignment PIN_AH27 -to servo_pulse[1]
+set_location_assignment PIN_Y15 -to test_pin1
+set_location_assignment PIN_AA15 -to test_pin2
 set_location_assignment PIN_V11 -to CLOCK_50
 set_location_assignment PIN_AD12 -to ct[0]
 set_location_assignment PIN_AD11 -to ct[1]
@@ -79,11 +96,6 @@ set_location_assignment PIN_AE11 -to rgb_dc
 set_location_assignment PIN_AE12 -to rgb_res
 set_location_assignment PIN_W8 -to spkr
 set_location_assignment PIN_AF11 -to point
-set_location_assignment PIN_AH17 -to reset_n
-set_location_assignment PIN_U9 -to ADC_CONVST
-set_location_assignment PIN_V10 -to ADC_SCK
-set_location_assignment PIN_AC4 -to ADC_SDI
-set_location_assignment PIN_AD4 -to ADC_SDO
 set_location_assignment PIN_AG13 -to ARDUINO_IO[0]
 set_location_assignment PIN_AF13 -to ARDUINO_IO[1]
 set_location_assignment PIN_AG10 -to ARDUINO_IO[2]
@@ -101,7 +113,6 @@ set_location_assignment PIN_AH12 -to ARDUINO_IO[13]
 set_location_assignment PIN_AH9 -to ARDUINO_IO[14]
 set_location_assignment PIN_AG11 -to ARDUINO_IO[15]
 set_location_assignment PIN_AH7 -to ARDUINO_RESET_N
-set_location_assignment PIN_V11 -to FPGA_CLK1_50
 set_location_assignment PIN_Y13 -to FPGA_CLK2_50
 set_location_assignment PIN_E11 -to FPGA_CLK3_50
 set_location_assignment PIN_AH17 -to KEY[0]
@@ -155,7 +166,9 @@ set_location_assignment PIN_AE11 -to GPIO_0[33]
 set_location_assignment PIN_AF11 -to GPIO_0[34]
 set_location_assignment PIN_AE12 -to GPIO_0[35]
 set_location_assignment PIN_Y15 -to GPIO_1[0]
+set_location_assignment PIN_AG28 -to GPIO_1[1]
 set_location_assignment PIN_AA15 -to GPIO_1[2]
+set_location_assignment PIN_AH27 -to GPIO_1[3]
 set_location_assignment PIN_AG26 -to GPIO_1[4]
 set_location_assignment PIN_AH24 -to GPIO_1[5]
 set_location_assignment PIN_AF23 -to GPIO_1[6]
@@ -188,13 +201,5 @@ set_location_assignment PIN_AD23 -to GPIO_1[32]
 set_location_assignment PIN_AE23 -to GPIO_1[33]
 set_location_assignment PIN_AA18 -to GPIO_1[34]
 set_location_assignment PIN_AC22 -to GPIO_1[35]
-set_global_assignment -name SDC_FILE ELEX7660_TermProject.sdc
-set_global_assignment -name SYSTEMVERILOG_FILE ELEX7660_TermProject.sv
-set_global_assignment -name SYSTEMVERILOG_FILE servo.sv
-set_global_assignment -name SYSTEMVERILOG_FILE sqrt_int.sv
-set_global_assignment -name SYSTEMVERILOG_FILE fft_interface.sv
-set_global_assignment -name SYSTEMVERILOG_FILE adcinterface.sv
-set_global_assignment -name QIP_FILE fft/synthesis/fft.qip
-set_location_assignment PIN_AG28 -to sqrt_valid
-set_location_assignment PIN_AH27 -to sqrt_busy
+set_global_assignment -name CDF_FILE "output_files/ELEX7660-TermProject_time_limited.cdf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

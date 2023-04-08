@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2023.04.07.12:16:14"
+ date="2023.04.08.13:01:10"
  outputDirectory="C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/">
  <perimeter>
   <parameter
@@ -66,7 +66,7 @@
    <property name="associatedClock" value="clk" />
    <property name="associatedReset" value="reset" />
    <property name="beatsPerCycle" value="1" />
-   <property name="dataBitsPerSymbol" value="29" />
+   <property name="dataBitsPerSymbol" value="33" />
    <property name="emptyWithinPacket" value="false" />
    <property name="errorDescriptor" value="" />
    <property name="firstSymbolInHighOrderBits" value="true" />
@@ -88,13 +88,13 @@
        direction="input"
        role="endofpacket"
        width="1" />
-   <port name="sink_data" direction="input" role="data" width="29" />
+   <port name="sink_data" direction="input" role="data" width="33" />
   </interface>
   <interface name="source" kind="avalon_streaming" start="1">
    <property name="associatedClock" value="clk" />
    <property name="associatedReset" value="reset" />
    <property name="beatsPerCycle" value="1" />
-   <property name="dataBitsPerSymbol" value="28" />
+   <property name="dataBitsPerSymbol" value="32" />
    <property name="emptyWithinPacket" value="false" />
    <property name="errorDescriptor" value="" />
    <property name="firstSymbolInHighOrderBits" value="true" />
@@ -116,18 +116,18 @@
        direction="output"
        role="endofpacket"
        width="1" />
-   <port name="source_data" direction="output" role="data" width="28" />
+   <port name="source_data" direction="output" role="data" width="32" />
   </interface>
  </perimeter>
  <entity
    path=""
-   parameterizationKey="fft:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA4U23C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1680894972,AUTO_UNIQUE_ID=(clock_source:18.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_fft_ii:18.1:CALC_LATENCY=8,THROUGHPUT_LATENCY=8,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=QSYS,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=12,in_width_derived=12,length=8,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=12,out_width_derived=12,selected_device_family=Cyclone V,twid_width=12,twid_width_derived=12)(clock:18.1:)(reset:18.1:)"
+   parameterizationKey="fft:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA4U23C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1680984068,AUTO_UNIQUE_ID=(clock_source:18.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_fft_ii:18.1:CALC_LATENCY=8,THROUGHPUT_LATENCY=8,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=QSYS,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=14,in_width_derived=14,length=8,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=14,out_width_derived=14,selected_device_family=Cyclone V,twid_width=14,twid_width_derived=14)(clock:18.1:)(reset:18.1:)"
    instancePathKey="fft"
    kind="fft"
    version="1.0"
    name="fft">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1680894972" />
+  <parameter name="AUTO_GENERATION_ID" value="1680984068" />
   <parameter name="AUTO_DEVICE" value="5CSEMA4U23C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -369,17 +369,17 @@
  </entity>
  <entity
    path="submodules/"
-   parameterizationKey="altera_fft_ii:18.1:CALC_LATENCY=8,THROUGHPUT_LATENCY=8,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=QSYS,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=12,in_width_derived=12,length=8,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=12,out_width_derived=12,selected_device_family=Cyclone V,twid_width=12,twid_width_derived=12"
+   parameterizationKey="altera_fft_ii:18.1:CALC_LATENCY=8,THROUGHPUT_LATENCY=8,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=QSYS,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=14,in_width_derived=14,length=8,num_engines=1,num_engines_derived=1,out_order=Digit Reverse,out_width=14,out_width_derived=14,selected_device_family=Cyclone V,twid_width=14,twid_width_derived=14"
    instancePathKey="fft:.:fft_ii_0"
    kind="altera_fft_ii"
    version="18.1"
    name="fft_fft_ii_0">
   <parameter name="THROUGHPUT_LATENCY" value="8" />
-  <parameter name="in_width_derived" value="12" />
+  <parameter name="in_width_derived" value="14" />
   <parameter name="in_order" value="Natural" />
   <parameter name="hyper_opt" value="false" />
   <parameter name="num_engines_derived" value="1" />
-  <parameter name="twid_width_derived" value="12" />
+  <parameter name="twid_width_derived" value="14" />
   <parameter name="length" value="8" />
   <parameter name="out_order" value="Digit Reverse" />
   <parameter name="selected_device_family" value="Cyclone V" />
@@ -387,14 +387,14 @@
   <parameter name="CALC_LATENCY" value="8" />
   <parameter name="design_env" value="QSYS" />
   <parameter name="data_rep" value="Fixed Point" />
-  <parameter name="in_width" value="12" />
+  <parameter name="in_width" value="14" />
   <parameter name="engine_arch" value="Quad Output" />
   <parameter name="data_flow" value="Variable Streaming" />
-  <parameter name="out_width" value="12" />
+  <parameter name="out_width" value="14" />
   <parameter name="num_engines" value="1" />
-  <parameter name="out_width_derived" value="12" />
+  <parameter name="out_width_derived" value="14" />
   <parameter name="hard_fp" value="false" />
-  <parameter name="twid_width" value="12" />
+  <parameter name="twid_width" value="14" />
   <parameter name="direction" value="Bi-directional" />
   <generatedFiles>
    <file

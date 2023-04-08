@@ -20,8 +20,8 @@ module fft_fft_ii_0 (
 	input	sink_valid,
 	input	sink_sop,
 	input	sink_eop,
-	input	logic [11 : 0] sink_real,
-	input	logic [11 : 0] sink_imag,
+	input	logic [13 : 0] sink_real,
+	input	logic [13 : 0] sink_imag,
 	input	logic [1 : 0] sink_error,
 	input	source_ready,
    output [3 : 0] fftpts_out,
@@ -30,16 +30,16 @@ module fft_fft_ii_0 (
 	output source_sop,
 	output source_eop,
 	output source_valid,
-	output [11 : 0] source_real,
-	output [11 : 0] source_imag
+	output [13 : 0] source_real,
+	output [13 : 0] source_imag
 	);
 
 	auk_dspip_r22sdf_top #(
 		.DEVICE_FAMILY_g("Cyclone V"),
 		.MAX_FFTPTS_g(8),
 		.NUM_STAGES_g(2),
-		.DATAWIDTH_g(12),
-		.TWIDWIDTH_g(12),
+		.DATAWIDTH_g(14),
+		.TWIDWIDTH_g(14),
 		.MAX_GROW_g (0),
 		.TWIDROM_BASE_g("fft_fft_ii_0_"),
 		.DSP_ROUNDING_g(0),

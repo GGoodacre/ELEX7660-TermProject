@@ -7,13 +7,13 @@
 			sink_error           : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- error
 			sink_startofpacket   : in  std_logic                     := 'X';             -- startofpacket
 			sink_endofpacket     : in  std_logic                     := 'X';             -- endofpacket
-			sink_data            : in  std_logic_vector(28 downto 0) := (others => 'X'); -- data
+			sink_data            : in  std_logic_vector(32 downto 0) := (others => 'X'); -- data
 			source_valid         : out std_logic;                                        -- valid
 			source_ready         : in  std_logic                     := 'X';             -- ready
 			source_error         : out std_logic_vector(1 downto 0);                     -- error
 			source_startofpacket : out std_logic;                                        -- startofpacket
 			source_endofpacket   : out std_logic;                                        -- endofpacket
-			source_data          : out std_logic_vector(27 downto 0)                     -- data
+			source_data          : out std_logic_vector(31 downto 0)                     -- data
 		);
 	end component fft;
 

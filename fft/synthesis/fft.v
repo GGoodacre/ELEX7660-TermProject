@@ -11,18 +11,18 @@ module fft (
 		input  wire [1:0]  sink_error,           //       .error
 		input  wire        sink_startofpacket,   //       .startofpacket
 		input  wire        sink_endofpacket,     //       .endofpacket
-		input  wire [28:0] sink_data,            //       .data
+		input  wire [32:0] sink_data,            //       .data
 		output wire        source_valid,         // source.valid
 		input  wire        source_ready,         //       .ready
 		output wire [1:0]  source_error,         //       .error
 		output wire        source_startofpacket, //       .startofpacket
 		output wire        source_endofpacket,   //       .endofpacket
-		output wire [27:0] source_data           //       .data
+		output wire [31:0] source_data           //       .data
 	);
 
 	wire         rst_controller_reset_out_reset; // rst_controller:reset_out -> fft_ii_0:reset_n
-	wire  [11:0] fft_ii_0_source_imag;           // port fragment
-	wire  [11:0] fft_ii_0_source_real;           // port fragment
+	wire  [13:0] fft_ii_0_source_imag;           // port fragment
+	wire  [13:0] fft_ii_0_source_real;           // port fragment
 	wire   [3:0] fft_ii_0_fftpts_out;            // port fragment
 
 	fft_fft_ii_0 fft_ii_0 (
@@ -33,8 +33,8 @@ module fft (
 		.sink_error   (sink_error),                      //       .error
 		.sink_sop     (sink_startofpacket),              //       .startofpacket
 		.sink_eop     (sink_endofpacket),                //       .endofpacket
-		.sink_real    (sink_data[28:17]),                //       .data
-		.sink_imag    (sink_data[16:5]),                 //       .data
+		.sink_real    (sink_data[32:19]),                //       .data
+		.sink_imag    (sink_data[18:5]),                 //       .data
 		.fftpts_in    (sink_data[4:1]),                  //       .data
 		.inverse      (sink_data[0]),                    //       .data
 		.source_valid (source_valid),                    // source.valid
@@ -42,8 +42,8 @@ module fft (
 		.source_error (source_error),                    //       .error
 		.source_sop   (source_startofpacket),            //       .startofpacket
 		.source_eop   (source_endofpacket),              //       .endofpacket
-		.source_real  (fft_ii_0_source_real[11:0]),      //       .data
-		.source_imag  (fft_ii_0_source_imag[11:0]),      //       .data
+		.source_real  (fft_ii_0_source_real[13:0]),      //       .data
+		.source_imag  (fft_ii_0_source_imag[13:0]),      //       .data
 		.fftpts_out   (fft_ii_0_fftpts_out[3:0])         //       .data
 	);
 
@@ -110,6 +110,6 @@ module fft (
 		.reset_req_in15 (1'b0)                            // (terminated)
 	);
 
-	assign source_data = { fft_ii_0_source_real[11:0], fft_ii_0_source_imag[11:0], fft_ii_0_fftpts_out[3:0] };
+	assign source_data = { fft_ii_0_source_real[13:0], fft_ii_0_source_imag[13:0], fft_ii_0_fftpts_out[3:0] };
 
 endmodule

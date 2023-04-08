@@ -4,7 +4,7 @@ module ELEX7660_TermProject (
               input ADC_SDO,
               input logic  reset_n, FPGA_CLK1_50,
               output logic servo_pulse [4:0],
-              output logic sqrt_busy, sqrt_valid
+              output logic test_pin1, test_pin2
               ) ;
   
     logic [12:0] mag [0:7];
@@ -18,8 +18,8 @@ module ELEX7660_TermProject (
             .ADC_SDI(ADC_SDI),
             .ADC_SDO(ADC_SDO),
             .ADC_channel(0),
-            .o_sqrt_busy(sqrt_busy),
-            .o_sqrt_valid(sqrt_valid)
+            .test_pin1(test_pin1),
+            .test_pin2(test_pin2)
         );
     servo servo_0
         (

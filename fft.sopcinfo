@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="fft" kind="fft" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2023.04.07.12:16:12 -->
+ <!-- 2023.04.08.13:01:08 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1680894972</value>
+  <value>1680984068</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -445,7 +445,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="in_width">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -453,7 +453,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="in_width_derived">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -461,7 +461,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="out_width">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -469,7 +469,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="out_width_derived">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -477,7 +477,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="twid_width">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -485,7 +485,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="twid_width_derived">
    <type>int</type>
-   <value>12</value>
+   <value>14</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -716,7 +716,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="dataBitsPerSymbol">
     <type>int</type>
-    <value>29</value>
+    <value>33</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -837,7 +837,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>sink_data</name>
     <direction>Input</direction>
-    <width>29</width>
+    <width>33</width>
     <role>data</role>
    </port>
   </interface>
@@ -871,7 +871,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="dataBitsPerSymbol">
     <type>int</type>
-    <value>28</value>
+    <value>32</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -992,7 +992,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>source_data</name>
     <direction>Output</direction>
-    <width>28</width>
+    <width>32</width>
     <role>data</role>
    </port>
   </interface>

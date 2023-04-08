@@ -32,7 +32,7 @@ module adcinterface(
 
     always_ff @(posedge ADC_CONVST or negedge ADC_SCK)
         if(ADC_CONVST)
-            sdi <= {1'b1,chan[0],chan[2:1],1'b1,1'b0}; //Creates the 6bit word to send through SDI
+            sdi <= {1'b1,chan[0],chan[2:1],1'b0,1'b0}; //Creates the 6bit word to send through SDI
         else
             sdi <= sdi<<1; //Shifts through the created word to send each bit
     

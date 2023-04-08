@@ -12,7 +12,7 @@ module servo(
     output logic pulseOut
     );
 
-    localparam dutyFactor = 5793; // factor for conversion from magnitude to duty cycle
+    localparam dutyFactor = 2895; // factor for conversion from magnitude to duty cycle
 
     logic [31:0] count500;
     logic [31:0] timeCount;

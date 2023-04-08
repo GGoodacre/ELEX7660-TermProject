@@ -24,11 +24,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "sqrt_busy",
-					"strict" : false
-				},
-				{
-					"name" : "sqrt_valid",
+					"name" : "test_pin1",
 					"strict" : false
 				},
 				{
@@ -37,6 +33,10 @@
 				},
 				{
 					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "ADC_SDO",
 					"strict" : false
 				}
 			]
