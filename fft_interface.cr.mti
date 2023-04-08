@@ -1,0 +1,187 @@
+{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v} {0 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v(1): syntax error, unexpected $undefined, expecting class.
+
+} {3.0 5.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sqrt_int
+
+Top level modules:
+	sqrt_int
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v 
+-- Compiling module altera_reset_controller
+
+Top level modules:
+	altera_reset_controller
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:24 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v 
+-- Compiling module fft
+
+Top level modules:
+	fft
+End time: 16:20:24 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft
+
+Top level modules:
+	fft
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv} {0 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv(1): syntax error, unexpected $undefined, expecting class.
+
+} {3.0 5.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v} {0 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v(1): syntax error, unexpected $undefined, expecting class.
+
+} {3.0 5.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_reset_synchronizer
+
+Top level modules:
+	altera_reset_synchronizer
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_fft_ii_0
+
+Top level modules:
+	fft_fft_ii_0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v}} {0 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v 
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/hyper_pipeline_interface.v(1): syntax error, unexpected $undefined, expecting class.
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {5.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv 
+-- Compiling module sqrt_int
+
+Top level modules:
+	sqrt_int
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_tb
+
+Top level modules:
+	fft_tb
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv 
+-- Compiling module fft_tb
+
+Top level modules:
+	fft_tb
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_reset_controller
+
+Top level modules:
+	altera_reset_controller
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv}} {0 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv 
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/counter_module.sv(1): syntax error, unexpected $undefined, expecting class.
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {5.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v}} {0 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v 
+** Error: (vlog-13067) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v(1.0): Syntax error, unexpected non-printable character with the hex value '0x8b'.
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/apn_fft_mult_cpx_1825.v(1): syntax error, unexpected $undefined, expecting class.
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {5.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v 
+-- Compiling module altera_reset_synchronizer
+
+Top level modules:
+	altera_reset_synchronizer
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:24 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv 
+-- Compiling module fft_interface
+
+Top level modules:
+	fft_interface
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_interface
+
+Top level modules:
+	fft_interface
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:25 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv 
+-- Compiling module fft_fft_ii_0
+
+Top level modules:
+	fft_fft_ii_0
+End time: 16:20:25 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:20:24 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv 
+-- Compiling module adcinterface
+
+Top level modules:
+	adcinterface
+End time: 16:20:24 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adcinterface
+
+Top level modules:
+	adcinterface
+
+} {} {}}

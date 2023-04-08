@@ -1,0 +1,2196 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Assignments/Assignment 2
+vadcinterface
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1680909772
+!i10b 1
+!s100 2Hb]OEU[S^h[@YL1Fbmz=2
+I80beA2L5jUQN;:TXSzNR>1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adcinterface_sv_unit
+S1
+Z3 dC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project
+w1680896764
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv
+L0 9
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1680909772.000000
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/adcinterface.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+valtera_avalon_clock_source
+R0
+Z8 DXx4 work 13 verbosity_pkg 0 22 nAa@nMAlHcKba=PCm<iK;2
+Z9 !s110 1680900204
+!i10b 1
+!s100 7>6YBzb`DQn61JSAYoHJA0
+IJb361Uc3jR39`<I51hl:d3
+R2
+!s105 altera_avalon_clock_source_sv_unit
+S1
+R3
+Z10 w1680898160
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv
+Z11 L0 23
+R4
+r1
+!s85 0
+31
+Z12 !s108 1680900204.000000
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv|
+!i113 1
+R6
+R7
+valtera_avalon_reset_source
+R0
+R8
+R9
+!i10b 1
+!s100 3a?19XA<0CCRW>1VRc_7<0
+IKn^IMZVflZ84ekeg:odP`1
+R2
+!s105 altera_avalon_reset_source_sv_unit
+S1
+R3
+R10
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv
+R11
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv|
+!i113 1
+R6
+R7
+valtera_avalon_st_sink_bfm
+R0
+R8
+R9
+!i10b 1
+!s100 QKG<jMT:=EUfV[cUUK9N10
+ISaF]]EW8?M42>9liT55kB2
+R2
+!s105 altera_avalon_st_sink_bfm_sv_unit
+S1
+R3
+R10
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv
+L0 36
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv|
+!i113 1
+R6
+R7
+valtera_avalon_st_source_bfm
+R0
+R8
+Z13 DXx4 work 20 avalon_utilities_pkg 0 22 2@TX3oUmR]A>BBffH_]Ri3
+R9
+!i10b 1
+!s100 @TohDPkN@dO2n231b3nJ]2
+IC5naJ=OQ;gRZPDE:84a0]1
+R2
+!s105 altera_avalon_st_source_bfm_sv_unit
+S1
+R3
+R10
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv
+L0 35
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv|
+!i113 1
+R6
+R7
+Ealtera_fft_dual_port_ram
+R10
+Z14 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z15 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R3
+Z18 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd
+Z19 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd
+l0
+L36
+VlTfz;ez=Vg7UEXML<<]e90
+!s100 BdH<Ejoz0S=ZH<o>;hXEU3
+Z20 OV;C;10.5b;63
+32
+Z21 !s110 1680900207
+!i10b 1
+Z22 !s108 1680900207.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd|
+Z24 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd|
+!i113 1
+Z25 o-work work -2002 -explicit
+Z26 tExplicit 1 CvgOpt 0
+Artl
+R14
+R15
+R16
+R17
+DEx4 work 24 altera_fft_dual_port_ram 0 22 lTfz;ez=Vg7UEXML<<]e90
+l72
+L58
+VSM8E[:_P[o48?EMD@X[[c1
+!s100 gm8ZEgojZ5`o8H:6`25<N0
+R20
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R25
+R26
+Ealtera_fft_dual_port_rom
+R10
+R14
+R15
+R16
+R17
+R3
+Z27 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd
+Z28 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd
+l0
+L23
+Vl6<?C0D6;^:iDRfF9iYjm0
+!s100 H@bfF4k1@3>K]G7b8V1o31
+R20
+32
+R21
+!i10b 1
+R22
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd|
+Z30 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd|
+!i113 1
+R25
+R26
+Artl
+R14
+R15
+R16
+R17
+DEx4 work 24 altera_fft_dual_port_rom 0 22 l6<?C0D6;^:iDRfF9iYjm0
+l56
+L43
+Vll<jb<PTZAjO]_nz?VIZ11
+!s100 ;GaRoKFCibl2c^@<T9i<e3
+R20
+32
+R21
+!i10b 1
+R22
+R29
+R30
+!i113 1
+R25
+R26
+Ealtera_fft_mult_add
+R10
+Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z32 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R16
+R17
+R3
+Z33 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd
+Z34 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd
+l0
+L23
+V>n1lX;AfnI63ddb0jmem?2
+!s100 H3ijk[GZk;X8zc0o_;TmB2
+R20
+32
+R21
+!i10b 1
+R22
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd|
+Z36 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd|
+!i113 1
+R25
+R26
+Artl
+R31
+R32
+R16
+R17
+DEx4 work 19 altera_fft_mult_add 0 22 >n1lX;AfnI63ddb0jmem?2
+l90
+L42
+VQ4EgLKKY3l1mGVog02X`12
+!s100 XM<X`BMJP<j_BQ5P>ITka0
+R20
+32
+R21
+!i10b 1
+R22
+R35
+R36
+!i113 1
+R25
+R26
+Ealtera_fft_mult_add_new
+R10
+R14
+R31
+R32
+R16
+R17
+R3
+R33
+R34
+l0
+L140
+VO[dV5MGOM@<oOi>iJ[PC_2
+!s100 c]NbY]7F0z4IKmBL3546X3
+R20
+32
+R21
+!i10b 1
+R22
+R35
+R36
+!i113 1
+R25
+R26
+Artl
+R14
+R31
+R32
+R16
+R17
+DEx4 work 23 altera_fft_mult_add_new 0 22 O[dV5MGOM@<oOi>iJ[PC_2
+l160
+L159
+VfVF8L^;[b8Me_@3l``8M82
+!s100 UlgY90<;2FLH1=;EO>Cz?0
+R20
+32
+R21
+!i10b 1
+R22
+R35
+R36
+!i113 1
+R25
+R26
+Ealtera_fft_mult_add_old
+R10
+R15
+R31
+R32
+R16
+R17
+R3
+R33
+R34
+l0
+L396
+VKURGCGmC2Zn<]EnD7agEM1
+!s100 aF?UYhC@k_k9hUB@4LdAJ0
+R20
+32
+R21
+!i10b 1
+R22
+R35
+R36
+!i113 1
+R25
+R26
+Artl
+R15
+R31
+R32
+R16
+R17
+DEx4 work 23 altera_fft_mult_add_old 0 22 KURGCGmC2Zn<]EnD7agEM1
+l416
+L415
+V1aA3^HDP_gREWa6]>Q47>1
+!s100 `9=3M8iUc?d1YHYUJ4[A:0
+R20
+32
+R21
+!i10b 1
+R22
+R35
+R36
+!i113 1
+R25
+R26
+Ealtera_fft_single_port_rom
+R10
+R14
+R15
+R16
+R17
+R3
+Z37 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd
+Z38 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd
+l0
+L23
+VANi]fTKVb5b46jo5W1`C43
+!s100 G6:9o[WFbD2oWH;=8]nNE0
+R20
+32
+R21
+!i10b 1
+R22
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd|
+Z40 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd|
+!i113 1
+R25
+R26
+Artl
+R14
+R15
+R16
+R17
+DEx4 work 26 altera_fft_single_port_rom 0 22 ANi]fTKVb5b46jo5W1`C43
+l53
+L40
+Vz^]2HVULa5g63?J>?XCPF3
+!s100 3eQFGiX^SoLO=2e[F@R1U1
+R20
+32
+R21
+!i10b 1
+R22
+R39
+R40
+!i113 1
+R25
+R26
+valtera_reset_controller
+R1
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I>^hBQ6mQ5<9[5K1DdeP6j3
+R2
+R3
+Z41 w1680894974
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v
+L0 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+Z42 o-work work
+R7
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IiVLI7kG0F<c]Yl=05o4561
+R2
+R3
+R41
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R42
+R7
+Eapn_fft_mult_can
+R10
+Z43 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R16
+R17
+R3
+Z44 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd
+Z45 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd
+l0
+L21
+V7djQJ9zOSU9ciBXze`XB62
+!s100 lEcolbV>2PX_DQRI[@?C42
+R20
+32
+R21
+!i10b 1
+R22
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd|
+Z47 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd|
+!i113 1
+R25
+R26
+Artl
+R43
+R16
+R17
+DEx4 work 16 apn_fft_mult_can 0 22 7djQJ9zOSU9ciBXze`XB62
+l57
+L39
+VgBV`IT4Z^m6nc0zOVIGB02
+!s100 [O7jgRH:4l_8HkZSQVEIK2
+R20
+32
+R21
+!i10b 1
+R22
+R46
+R47
+!i113 1
+R25
+R26
+Eapn_fft_mult_cpx
+R10
+R43
+R16
+R17
+R3
+Z48 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd
+Z49 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd
+l0
+L21
+VH0mEcncci:nk^b<88g[c>0
+!s100 PekPO659JaXM;L7Z6KC@M3
+R20
+32
+R21
+!i10b 1
+R22
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd|
+Z51 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd|
+!i113 1
+R25
+R26
+Artl
+R43
+R16
+R17
+DEx4 work 16 apn_fft_mult_cpx 0 22 H0mEcncci:nk^b<88g[c>0
+l50
+L39
+VJ_PdgaJVXTHY?2eC=XcaR1
+!s100 74f@jkKkhZ8@nLZ=>Z1LG1
+R20
+32
+R21
+!i10b 1
+R22
+R50
+R51
+!i113 1
+R25
+R26
+vNkc9mEzZ64+S8ZtayqtOYBcGb0S/OM/TDw3G9ftMDiM=
+Z52 !s110 1680900205
+!i10b 0
+!s100 ROe`QZ`_O8;YRM=fJ1[]X0
+IW_dBaVn<>ak1HT6_zoTW01
+R2
+!i8a 1811252704
+R3
+Z53 w1680900205
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v
+Z54 L0 38
+R4
+r1
+!s85 0
+31
+Z55 !s108 1680900205.000000
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v|
+!i113 1
+R42
+R7
+n73d7cc5
+Eauk_dspip_avalon_streaming_block_sink
+R10
+Z56 DPx4 work 18 auk_dspip_math_pkg 0 22 feAJWTeL]Mhij:o[8KNI`0
+R43
+R16
+R17
+R3
+Z57 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+Z58 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+l0
+L22
+VjMYQFfmk<9QWEjF2HOE`N0
+!s100 5FkmY2J9_R^OCddRZBZ_i1
+R20
+32
+Z59 !s110 1680900208
+!i10b 1
+R22
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
+Z61 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
+!i113 1
+R25
+R26
+Artl
+R56
+R43
+R16
+R17
+DEx4 work 37 auk_dspip_avalon_streaming_block_sink 0 22 jMYQFfmk<9QWEjF2HOE`N0
+l142
+L59
+VRT7AGi8;SefH7m`jznJND2
+!s100 38QZ;1;3801MEH1PhgNl=3
+R20
+32
+R59
+!i10b 1
+R22
+R60
+R61
+!i113 1
+R25
+R26
+Eauk_dspip_avalon_streaming_block_source
+R10
+R15
+R56
+Z62 DPx4 work 17 auk_dspip_lib_pkg 0 22 @5TZ3J`6R0Z4E@<HDj:l_0
+R43
+R16
+R17
+R3
+Z63 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd
+Z64 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd
+l0
+L25
+VcER>X;DMoVS^j:o=>n`:;1
+!s100 PcknmbOT5fM?^3Ua7SJWA0
+R20
+32
+R59
+!i10b 1
+Z65 !s108 1680900208.000000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd|
+Z67 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd|
+!i113 1
+R25
+R26
+Artl
+R15
+R56
+R62
+R43
+R16
+R17
+DEx4 work 39 auk_dspip_avalon_streaming_block_source 0 22 cER>X;DMoVS^j:o=>n`:;1
+l119
+L47
+VCLUz=cWI35N_^6keM<;`[0
+!s100 :k4nQbJ<X1g=i>`Jeb;XM1
+R20
+32
+R59
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R25
+R26
+Eauk_dspip_bit_reverse_addr_control
+R10
+Z68 DPx4 work 13 hyper_opt_pkg 0 22 bS28[9=4V^09;B^lae9YC1
+Z69 DPx4 work 24 auk_dspip_r22sdf_lib_pkg 0 22 8C8dUf_J1ZdTl<dA]RM[e3
+R56
+R43
+R16
+R17
+R3
+Z70 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd
+Z71 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd
+l0
+L62
+VD;V92^^Ej0N8kc1`LGIUa3
+!s100 TD?3f5UXQ]1<fIXnEbOB73
+R20
+32
+R59
+!i10b 1
+R65
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd|
+Z73 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 34 auk_dspip_bit_reverse_addr_control 0 22 D;V92^^Ej0N8kc1`LGIUa3
+l84
+L79
+V15ii<VQ<IK6ZD1bgHNO<>0
+!s100 jz;<_36f[Gc]f6C5c[>E70
+R20
+32
+R59
+!i10b 1
+R65
+R72
+R73
+!i113 1
+R25
+R26
+Eauk_dspip_bit_reverse_core
+R10
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z74 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd
+Z75 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd
+l0
+L89
+VPPboSkigYe8edFP6AYT=^0
+!s100 E:8jPB>@K3Zh0LR]SBIXJ3
+R20
+32
+R59
+!i10b 1
+R65
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd|
+Z77 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd|
+!i113 1
+R25
+R26
+Artl
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 26 auk_dspip_bit_reverse_core 0 22 PPboSkigYe8edFP6AYT=^0
+l129
+L111
+VTi[K31Fg<W4PI[1BM>Bcl3
+!s100 85:oPoe@DB85cOZCJ7VUj3
+R20
+32
+R59
+!i10b 1
+R65
+R76
+R77
+!i113 1
+R25
+R26
+Eauk_dspip_bit_reverse_reverse_carry_adder
+R10
+R43
+R16
+R17
+R3
+Z78 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd
+Z79 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd
+l0
+L77
+VJ=N9b7V2Ybm@JPVHfIQ4S3
+!s100 C=D<3=XEQ9Q[[d][0Rzna3
+R20
+32
+Z80 !s110 1680900206
+!i10b 1
+Z81 !s108 1680900206.000000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd|
+Z83 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd|
+!i113 1
+R25
+R26
+Artl
+R43
+R16
+R17
+DEx4 work 41 auk_dspip_bit_reverse_reverse_carry_adder 0 22 J=N9b7V2Ybm@JPVHfIQ4S3
+l92
+L89
+VGnfkH48m@VJCV>P26:U9@2
+!s100 HE4l1ankVlFQCB08jj`Sc1
+R20
+32
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R25
+R26
+Pauk_dspip_lib_pkg
+R56
+R43
+R16
+R17
+R10
+R3
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd
+l0
+L28
+V@5TZ3J`6R0Z4E@<HDj:l_0
+!s100 KcRlL:CTnlUz=1CF=kC_S0
+R20
+32
+R80
+!i10b 1
+R81
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd|
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd|
+!i113 1
+R25
+R26
+Pauk_dspip_math_pkg
+R43
+R16
+R17
+Z84 w1680898161
+R3
+Z85 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd
+Z86 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd
+l0
+L51
+VfeAJWTeL]Mhij:o[8KNI`0
+!s100 [z_3ODE8b:W7XDJ[_]HTW0
+R20
+32
+b1
+R80
+!i10b 1
+R81
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd|
+Z88 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd|
+!i113 1
+R25
+R26
+Bbody
+R56
+R43
+R16
+R17
+l0
+L128
+VABbzlJeL=9S_09@`K1MPk1
+!s100 `941_Ff6o7=GBNnXYB1eU3
+R20
+32
+R80
+!i10b 1
+R81
+R87
+R88
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_adder_fp
+R10
+R56
+R43
+R62
+R31
+R32
+R16
+R17
+R3
+Z89 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd
+Z90 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd
+l0
+L55
+VW=LnV<_:f8fTAZi:W0D3]3
+!s100 Yo3Q__0aPh7U6fFQcB@>?3
+R20
+32
+R80
+!i10b 1
+R81
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd|
+Z92 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd|
+!i113 1
+R25
+R26
+Artl
+R56
+R43
+R62
+R31
+R32
+R16
+R17
+DEx4 work 25 auk_dspip_r22sdf_adder_fp 0 22 W=LnV<_:f8fTAZi:W0D3]3
+l153
+L74
+VO]?1B4gJ`NUmZNoYHM=kG2
+!s100 _ibA>^B7;FB43H707L_`a2
+R20
+32
+R80
+!i10b 1
+R81
+R91
+R92
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_addsub
+R10
+R68
+R56
+R69
+R15
+Z93 DPx3 lpm 14 lpm_components 0 22 BZZBj]8LhndN7CkCjD@L`2
+R43
+R16
+R17
+R3
+Z94 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd
+Z95 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd
+l0
+L63
+VY71^>kiVibLXhKU;^JN=B2
+!s100 Wa@b2dTl3XCjCR>ieDLYX3
+R20
+32
+R59
+!i10b 1
+R65
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd|
+Z97 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R56
+R69
+R15
+R93
+R43
+R16
+R17
+DEx4 work 23 auk_dspip_r22sdf_addsub 0 22 Y71^>kiVibLXhKU;^JN=B2
+l139
+L84
+VSLm4F:>a>gUMB=`J<`O^H0
+!s100 4gAZVHed[_:Pm6CMIKNa@3
+R20
+32
+R59
+!i10b 1
+R65
+R96
+R97
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_bf_control
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z98 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd
+Z99 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd
+l0
+L77
+Vg^8AKfPemkmeTHP[eQa:n3
+!s100 X@fUf76EFX0K@j>dBAgo80
+R20
+32
+Z100 !s110 1680900209
+!i10b 1
+R65
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd|
+Z102 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 27 auk_dspip_r22sdf_bf_control 0 22 g^8AKfPemkmeTHP[eQa:n3
+l113
+L106
+V^0H4e5MW1ZoBi>`DC34l12
+!s100 02F^O;71eeX<cb?@1oKXO2
+R20
+32
+R100
+!i10b 1
+R65
+R101
+R102
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_bfi
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z103 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd
+Z104 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd
+l0
+L97
+V2gZ`6aNFL1zi@mmgTI@181
+!s100 n@MIcm>W:Vm8MekgOOOK[0
+R20
+32
+R100
+!i10b 1
+Z105 !s108 1680900209.000000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd|
+Z107 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd|
+!i113 1
+R25
+R26
+Artl2
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 20 auk_dspip_r22sdf_bfi 0 22 2gZ`6aNFL1zi@mmgTI@181
+l188
+L149
+VZZBnTB6:BPkNTl95l]olX3
+!s100 CczYUGK6<hJV10P3BNXQ^2
+R20
+32
+R100
+!i10b 1
+R105
+R106
+R107
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_bfii
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z108 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd
+Z109 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd
+l0
+L69
+V7hjS<D`=dJHhJaZeAF[Wo1
+!s100 f_ZCofA5^h:`Yao[1e6W60
+R20
+32
+R100
+!i10b 1
+R105
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd|
+Z111 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 21 auk_dspip_r22sdf_bfii 0 22 7hjS<D`=dJHhJaZeAF[Wo1
+l170
+L120
+V@?zPZIBSjKKT?PZCQm[GO3
+!s100 kaVbj02XNC6eCM1<Ej@Xz3
+R20
+32
+R100
+!i10b 1
+R105
+R110
+R111
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_cma
+R10
+R68
+R69
+R62
+R56
+R14
+R43
+R16
+R17
+R3
+Z112 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd
+Z113 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd
+l0
+L100
+VS9Kf[J=LAz5Sh@7@iGM^z2
+!s100 >ToO>`]8PGMoBeGdl;GLi3
+R20
+32
+R100
+!i10b 1
+R105
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd|
+Z115 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R62
+R56
+R14
+R43
+R16
+R17
+DEx4 work 20 auk_dspip_r22sdf_cma 0 22 S9Kf[J=LAz5Sh@7@iGM^z2
+l175
+L145
+VcHZj>O:e0gbnb?[TJ?0?Z1
+!s100 Gc?K]_bfnH>REFBOIXi]_3
+R20
+32
+R100
+!i10b 1
+R105
+R114
+R115
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_cma_adder_fp
+R10
+R56
+R43
+R62
+R31
+R32
+R16
+R17
+R3
+Z116 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd
+Z117 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd
+l0
+L66
+V]0i3XABKg1M[6W]?d>o1z3
+!s100 O4S]CCg2MdLDF_OdP7ini2
+R20
+32
+R80
+!i10b 1
+R81
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd|
+Z119 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd|
+!i113 1
+R25
+R26
+Artl
+R56
+R43
+R62
+R31
+R32
+R16
+R17
+DEx4 work 29 auk_dspip_r22sdf_cma_adder_fp 0 22 ]0i3XABKg1M[6W]?d>o1z3
+l239
+L90
+VN_kI3[P0Nh7g6EbZj8S>00
+!s100 >jTGF:71QI3jgVLZK[Pf42
+R20
+32
+R80
+!i10b 1
+R81
+R118
+R119
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_cma_bfi_fp
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z120 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd
+Z121 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd
+l0
+L72
+VgL9>9[8l8Mkmb4GO28B0K1
+!s100 V_AF>B6QAL8O_FNS[l60H0
+R20
+32
+R100
+!i10b 1
+R105
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd|
+Z123 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 27 auk_dspip_r22sdf_cma_bfi_fp 0 22 gL9>9[8l8Mkmb4GO28B0K1
+l178
+L128
+VFcUW1EXSLRDU<BT95TXmI1
+!s100 <UhW<GMUQQZPF<dmYj1hE0
+R20
+32
+R100
+!i10b 1
+R105
+R122
+R123
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_cma_fp
+R10
+R68
+R69
+R62
+R56
+R14
+R43
+R16
+R17
+R3
+Z124 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd
+Z125 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd
+l0
+L27
+VFTBOFmBk`mR9=Daj6W58_2
+!s100 13;0QBnlEMS]i^g?k[bok3
+R20
+32
+R100
+!i10b 1
+R105
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd|
+Z127 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R62
+R56
+R14
+R43
+R16
+R17
+DEx4 work 23 auk_dspip_r22sdf_cma_fp 0 22 FTBOFmBk`mR9=Daj6W58_2
+l147
+L64
+V^GXd;EPfKFe^VEX2;3[0n3
+!s100 ZE1MmNJZZ41z91U7gNbDT3
+R20
+32
+R100
+!i10b 1
+R105
+R126
+R127
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_core
+R10
+R68
+R69
+Z128 DPx4 work 18 auk_dspip_text_pkg 0 22 AF^jCG71[?HYhTX[D:ZV]2
+R56
+Z129 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R43
+R16
+R17
+R3
+Z130 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd
+Z131 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd
+l0
+L116
+VU0HO^RKkB=6>RLB4WKP620
+!s100 9Y>HA_TT^C7@X`h]YzUzI3
+R20
+32
+R100
+!i10b 1
+R105
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd|
+Z133 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R128
+R56
+R129
+R43
+R16
+R17
+DEx4 work 21 auk_dspip_r22sdf_core 0 22 U0HO^RKkB=6>RLB4WKP620
+l326
+L160
+Vdf=5i_WG6]JRAN;Pze1fi1
+!s100 KcW3`HOb]=JliOJnfHnLi2
+R20
+32
+R100
+!i10b 1
+R105
+R132
+R133
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_counter
+R10
+R56
+R43
+R16
+R17
+R3
+Z134 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd
+Z135 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd
+l0
+L80
+V:@E^n>73;230?NTMHle@?0
+!s100 le]X0]gP_IVTE:jSK>z^b0
+R20
+32
+R80
+!i10b 1
+R81
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd|
+Z137 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd|
+!i113 1
+R25
+R26
+Artl
+R56
+R43
+R16
+R17
+DEx4 work 24 auk_dspip_r22sdf_counter 0 22 :@E^n>73;230?NTMHle@?0
+l118
+L105
+VC0M@_K^WUEGfY27[J<3d11
+!s100 V@=gI`5>>CGJI9J1XjlP=2
+R20
+32
+R80
+!i10b 1
+R81
+R136
+R137
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_delay
+R10
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z138 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd
+Z139 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd
+l0
+L71
+VZCkXgb2AX0La42W3EaOAl0
+!s100 HLbRh7;nN?YO2a9a??a782
+R20
+32
+R100
+!i10b 1
+R105
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd|
+Z141 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd|
+!i113 1
+R25
+R26
+Artl
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 22 auk_dspip_r22sdf_delay 0 22 ZCkXgb2AX0La42W3EaOAl0
+l98
+L92
+V?5H]4hJHle7zV?heU?mO10
+!s100 Cb3]N:H1@0TAUTHVShPei3
+R20
+32
+R100
+!i10b 1
+R105
+R140
+R141
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_enable_control
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z142 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd
+Z143 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd
+l0
+L65
+V1]fHKU]7z`4cN?^>IMUaO3
+!s100 SaQ>9QE1N@zD@C2NTzab@0
+R20
+32
+R100
+!i10b 1
+R105
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd|
+Z145 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 31 auk_dspip_r22sdf_enable_control 0 22 1]fHKU]7z`4cN?^>IMUaO3
+l100
+L90
+V8<cN:CIe5P?X9iEB>gQ`i1
+!s100 <0cRjDMb]N9j<k;E:ZbRO0
+R20
+32
+R100
+!i10b 1
+R105
+R144
+R145
+!i113 1
+R25
+R26
+Pauk_dspip_r22sdf_lib_pkg
+R68
+R56
+R43
+R16
+R17
+R10
+R3
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd
+l0
+L35
+V8C8dUf_J1ZdTl<dA]RM[e3
+!s100 Md617>0a<F8`ngOelQXZi1
+R20
+32
+R59
+!i10b 1
+R65
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd|
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd|
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_stage
+R10
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z146 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd
+Z147 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd
+l0
+L131
+V6KV:5900DhKZC]Pnh]LPO3
+!s100 TQDFN=Q1Q7VTUl@ndCVHl2
+R20
+32
+R59
+!i10b 1
+R65
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd|
+Z149 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd|
+!i113 1
+R25
+R26
+Artl
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 22 auk_dspip_r22sdf_stage 0 22 6KV:5900DhKZC]Pnh]LPO3
+l500
+L182
+VGimZQaho9]N:8ZMBZ?WXd0
+!s100 h>CikCS5bHzc^VnV6YQFb1
+R20
+32
+R59
+!i10b 1
+R65
+R148
+R149
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_stg_out_pipe
+R10
+R43
+R56
+R16
+R17
+R3
+Z150 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd
+Z151 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd
+l0
+L62
+V9b;]OI]UDE?F16TYN:M[c0
+!s100 G8>n@Lmd7EQgZS05QDidb3
+R20
+32
+R80
+!i10b 1
+R81
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd|
+Z153 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd|
+!i113 1
+R25
+R26
+Artl
+R43
+R56
+R16
+R17
+DEx4 work 29 auk_dspip_r22sdf_stg_out_pipe 0 22 9b;]OI]UDE?F16TYN:M[c0
+l99
+L97
+V`1XUig69HD3m7]1@L52OW3
+!s100 oBGCfLLi36LM:B]];S?[P2
+R20
+32
+R80
+!i10b 1
+R81
+R152
+R153
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_stg_pipe
+R10
+R43
+R56
+R16
+R17
+R3
+Z154 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd
+Z155 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd
+l0
+L59
+VY[<g`o;>8?@2T5Hk?l45l0
+!s100 aJmoI8HK9N`?H6b8OLS0D0
+R20
+32
+R80
+!i10b 1
+R81
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd|
+Z157 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd|
+!i113 1
+R25
+R26
+Artl
+R43
+R56
+R16
+R17
+DEx4 work 25 auk_dspip_r22sdf_stg_pipe 0 22 Y[<g`o;>8?@2T5Hk?l45l0
+l105
+L103
+VN]5a=CCgLKneQ@o]J3E0g2
+!s100 =Hd2^J7QH@;YBmGjXH2`f0
+R20
+32
+R80
+!i10b 1
+R81
+R156
+R157
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_top
+R10
+R68
+R69
+R62
+R56
+R43
+R16
+R17
+R3
+Z158 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd
+Z159 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd
+l0
+L130
+VZ<N=0DYfN]LRaWRQ3C;5F1
+!s100 @1i8VjYM7RJZX8F2:hV@C3
+R20
+32
+R59
+!i10b 1
+R65
+Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd|
+Z161 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd|
+!i113 1
+R25
+R26
+Astr
+R68
+R69
+R62
+R56
+R43
+R16
+R17
+DEx4 work 20 auk_dspip_r22sdf_top 0 22 Z<N=0DYfN]LRaWRQ3C;5F1
+l231
+L174
+VeARG`1^PgXXE]]lgUeeH52
+!s100 @OF9<3bV_Kg00cLIYnA5`3
+R20
+32
+R59
+!i10b 1
+R65
+R160
+R161
+!i113 1
+R25
+R26
+Eauk_dspip_r22sdf_twrom
+R10
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+R3
+Z162 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd
+Z163 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd
+l0
+L75
+Vjf]8MO]`VRC7CB`Xoo1;V3
+!s100 amR1h6BIEjd4i=Feln6T40
+R20
+32
+R59
+!i10b 1
+R65
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd|
+Z165 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd|
+!i113 1
+R25
+R26
+Artl
+R15
+R68
+R69
+R56
+R43
+R16
+R17
+DEx4 work 22 auk_dspip_r22sdf_twrom 0 22 jf]8MO]`VRC7CB`Xoo1;V3
+l103
+L99
+VK1EmnoBZnj[lEFEJz=_]>0
+!s100 D_E88Ti<`YD215R3O[cSL2
+R20
+32
+R59
+!i10b 1
+R65
+R164
+R165
+!i113 1
+R25
+R26
+Eauk_dspip_roundsat
+R84
+R43
+R16
+R17
+R3
+Z166 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd
+Z167 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd
+l0
+L45
+VNLhXaEEeF6olGMz02mR1I3
+!s100 :Ro[aE[BH^N6eIGEG[O?N3
+R20
+32
+R80
+!i10b 1
+R81
+Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd|
+Z169 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd|
+!i113 1
+R25
+R26
+Abeh
+R43
+R16
+R17
+DEx4 work 18 auk_dspip_roundsat 0 22 NLhXaEEeF6olGMz02mR1I3
+l63
+L61
+VNFU:T[W[[bl=ho21TCBR81
+!s100 ]_3I0;m7RDoiJeFA6M^`A1
+R20
+32
+R80
+!i10b 1
+R81
+R168
+R169
+!i113 1
+R25
+R26
+Pauk_dspip_text_pkg
+R43
+R16
+R17
+R84
+R3
+Z170 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd
+Z171 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd
+l0
+L60
+VAF^jCG71[?HYhTX[D:ZV]2
+!s100 D132L>H75ieXQdW840k7O0
+R20
+32
+b1
+R80
+!i10b 1
+R81
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd|
+Z173 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd|
+!i113 1
+R25
+R26
+Bbody
+R128
+R43
+R16
+R17
+l0
+L76
+V>6[?O[`VliH1ga5jlEaLe0
+!s100 8<?]li33IkB>fMMF[SR`S2
+R20
+32
+R80
+!i10b 1
+R81
+R172
+R173
+!i113 1
+R25
+R26
+Pauk_fft_pkg
+R43
+R16
+R17
+R10
+R3
+Z174 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd
+Z175 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd
+l0
+L18
+V6edHL[Z4if`j=jEN3^hTF0
+!s100 KO4z40;KgGV8e8Ta2T@QA0
+R20
+32
+b1
+R21
+!i10b 1
+R22
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd|
+Z177 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd|
+!i113 1
+R25
+R26
+Bbody
+DPx4 work 11 auk_fft_pkg 0 22 6edHL[Z4if`j=jEN3^hTF0
+R43
+R16
+R17
+l0
+L27
+Vo6FAYU=:jLT>8TEfYlAif1
+!s100 PON1X2]W1W82nXe?d6j<h2
+R20
+32
+R21
+!i10b 1
+R22
+R176
+R177
+!i113 1
+R25
+R26
+Xavalon_utilities_pkg
+R0
+R9
+!i10b 1
+!s100 7Z6I@>cG<^^zXcl1Q`88O0
+I2@TX3oUmR]A>BBffH_]Ri3
+V2@TX3oUmR]A>BBffH_]Ri3
+S1
+R3
+R84
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv
+L0 40
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv|
+!i113 1
+R6
+R7
+vaZKUSC1/p9IDJJRiQWvZsA==
+R0
+R52
+!i10b 0
+!s100 QdHzZ<>7ZdJ4XRAz9oZQA0
+I<ik^U^a[;=K:K6@_c<<a^0
+R2
+!i8a 465797392
+!s105 counter_module_sv_unit
+S1
+R3
+R53
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv
+R54
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv|
+!i113 1
+R6
+R7
+n50012c5
+vfft
+R1
+!i10b 1
+!s100 ?0[e>g^bMXV_>A<KVPR603
+InIa6ik>;FF9Ockem^CXj30
+R2
+R3
+R41
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/fft.v|
+!i113 1
+R42
+R7
+vfft_fft_ii_0
+R0
+R1
+!i10b 1
+!s100 O10oIlRV9bJG>_:NCCEgl1
+I2nd@Jjc]gz8^C=InUBJVW2
+R2
+!s105 fft_fft_ii_0_sv_unit
+S1
+R3
+R41
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv
+Z178 L0 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft/synthesis/submodules/fft_fft_ii_0.sv|
+!i113 1
+R6
+R7
+vfft_ii_0_example_design
+R9
+!i10b 1
+!s100 >4AC:V^_3QSgBPF0;9]JE3
+I=f<ahoi:0FQ:]Il]Tdn=z2
+R2
+R3
+R84
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v
+L0 6
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v|
+!i113 1
+R42
+R7
+vfft_ii_0_example_design_core
+R0
+R9
+!i10b 1
+!s100 njcFQfMa5k?ZeG>ojej323
+IZ7nnmSZJ>iSfL@]QW[[6U0
+R2
+!s105 fft_ii_0_example_design_core_sv_unit
+S1
+R3
+R84
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv
+R178
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv|
+!i113 1
+R6
+R7
+vfft_ii_0_example_design_tb
+R9
+!i10b 1
+!s100 =^MT9oJ2D_3ZJbncGo5Jd1
+I?=D]k[J6YaAJgjjWkg7:@1
+R2
+R3
+R84
+8C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v
+FC:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v
+L0 6
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v|
+!i113 1
+R42
+R7
+Xfft_ii_0_example_design_test_program_sv_unit
+R0
+R13
+R8
+V6Nz1W7eF3Ofnon8OkmW=D3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^fb4dQm[3D^zS=>OKV7cB3
+I6Nz1W7eF3Ofnon8OkmW=D3
+!i103 1
+S1
+R3
+Z179 w1680898124
+Z180 8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv
+Z181 FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv
+L0 21
+R4
+R12
+Z182 !s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv|
+Z183 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv|
+!i113 1
+R6
+R7
+vfft_interface
+R0
+R1
+!i10b 1
+!s100 TN_>E8j0hjO9^R7I;zX@T0
+I5C9eg@UWnU_;4R4dkZXH93
+R2
+!s105 fft_interface_sv_unit
+S1
+R3
+w1680907778
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_interface.sv|
+!i113 1
+R6
+R7
+vfft_tb
+R0
+R1
+!i10b 1
+!s100 <o5<FO6JJ=UnXE2e?;ed<3
+IEhHTR9Q1UGnBg?bAL8XMO1
+R2
+!s105 fft_tb_sv_unit
+S1
+R3
+w1680909748
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv
+L0 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_tb.sv|
+!i113 1
+R6
+R7
+Phyper_opt_pkg
+R43
+R16
+R17
+R10
+R3
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd
+l0
+L20
+VbS28[9=4V^09;B^lae9YC1
+!s100 oP`H]Kc3EdoO3AG?g;i3L1
+R20
+32
+R21
+!i10b 1
+R22
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd|
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd|
+!i113 1
+R25
+R26
+vrGsengyZZdqYTH7D016myoZLqVBHyccOfuljQJYiLl0=
+R52
+!i10b 0
+!s100 L^@BnRdg_lel_IeL9W?Th1
+Ig@_WAn4jGc`E<1NaB_9OH2
+R2
+!i8a 396836176
+R3
+R53
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v
+R54
+R4
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v|
+!i113 1
+R42
+R7
+n5f39f65
+vsqrt_int
+R0
+R1
+!i10b 1
+!s100 W@fRa:MdIERinndbG8cmF0
+Ij`bcIQbR?5>DUUSE22TY:0
+R2
+!s105 sqrt_int_sv_unit
+S1
+R3
+w1680905400
+8C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv
+FC:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/sqrt_int.sv|
+!i113 1
+R6
+R7
+vtest_program
+R0
+R13
+R8
+DXx4 work 44 fft_ii_0_example_design_test_program_sv_unit 0 22 6Nz1W7eF3Ofnon8OkmW=D3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ez;;jCVYSIS;SBmNgTREG1
+Io7>c2MdMXTOi1CAZGHPOE2
+!s105 fft_ii_0_example_design_test_program_sv_unit
+S1
+R3
+R179
+R180
+R181
+L0 56
+R4
+R12
+R182
+R183
+!i113 1
+R6
+R7
+Xverbosity_pkg
+R0
+R9
+!i10b 1
+!s100 1LKXk98oFzia^4f:_THR]1
+InAa@nMAlHcKba=PCm<iK;2
+VnAa@nMAlHcKba=PCm<iK;2
+S1
+R3
+R84
+8C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv
+FC:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv
+L0 61
+R4
+r1
+!s85 0
+31
+!s108 1680900203.000000
+!s107 C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv|
+!i113 1
+R6
+R7

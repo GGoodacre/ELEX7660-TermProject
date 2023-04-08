@@ -1,0 +1,1528 @@
+{{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfi.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfi.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfi.vhd(39): near "xcQrI4chwP": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_enable_control
+-- Compiling architecture rtl of auk_dspip_r22sdf_enable_control
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_fft_pkg
+-- Compiling package body auk_fft_pkg
+-- Loading package auk_fft_pkg
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stage.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stage.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stage.vhd(39): near "CXPk": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_fft_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_fft_pkg
+-- Compiling package body auk_fft_pkg
+-- Loading package auk_fft_pkg
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_rom.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_rom.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_rom.vhd(39): near "/": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:38 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_avalon_streaming_block_source
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_source
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:32 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity auk_dspip_roundsat
+-- Compiling architecture beh of auk_dspip_roundsat
+End time: 13:42:32 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bfii
+-- Compiling architecture rtl of auk_dspip_r22sdf_bfii
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_fp.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_fp.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_fp.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_fp.vhd(39): near "8": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfii.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bfii
+-- Compiling architecture rtl of auk_dspip_r22sdf_bfii
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_addsub
+-- Compiling architecture rtl of auk_dspip_r22sdf_addsub
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_enable_control.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_enable_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_enable_control.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_enable_control.vhd(39): near "pSPOi0zFQe617NQZCGKX": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package hyper_opt_pkg
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_core.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_core.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_core.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_core.vhd(39): near "4": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma.vhd(39): near "lV7BWQLNPCEl5GXA97KU": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package altera_lnsim_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_fp
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:38 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_avalon_streaming_block_sink
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_sink
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/counter_module.sv}} {0 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/counter_module.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:48 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/counter_module.sv 
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/counter_module.sv(37): syntax error in protected region.
+
+End time: 13:42:48 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {5.0 6.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv 
+-- Compiling package avalon_utilities_pkg
+
+Top level modules:
+	--none--
+End time: 13:42:31 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_ram
+-- Compiling architecture rtl of altera_fft_dual_port_ram
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_tb.v}} {1 {vlog -work work {C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:31 on Apr 07,2023
+vlog -reportprogress 300 -work work C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v 
+-- Compiling module fft_ii_0_example_design_tb
+
+Top level modules:
+	fft_ii_0_example_design_tb
+End time: 13:42:31 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_r22sdf_twrom
+-- Compiling architecture rtl of auk_dspip_r22sdf_twrom
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_bfi_fp.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_bfi_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_bfi_fp.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_bfi_fp.vhd(39): near "AC6z1w3y6yZEqM": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:44 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_bit_reverse_addr_control
+-- Compiling architecture rtl of auk_dspip_bit_reverse_addr_control
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:42 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_top
+-- Compiling architecture str of auk_dspip_r22sdf_top
+End time: 13:42:42 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_stage
+-- Compiling architecture rtl of auk_dspip_r22sdf_stage
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_avalon_clock_source
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_clock_source
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_pipe.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_pipe.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_pipe.vhd(39): near "QFHRqprXsBooQqX4OgWa": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_bit_reverse_core
+-- Compiling architecture rtl of auk_dspip_bit_reverse_core
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bfi
+-- Compiling architecture rtl2 of auk_dspip_r22sdf_bfi
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_adder_fp.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_adder_fp.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_adder_fp.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_adder_fp.vhd(39): near "7": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_addr_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_bit_reverse_addr_control
+-- Compiling architecture rtl of auk_dspip_bit_reverse_addr_control
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_source.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_avalon_streaming_block_source
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_source
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity auk_dspip_bit_reverse_reverse_carry_adder
+-- Compiling architecture rtl of auk_dspip_bit_reverse_reverse_carry_adder
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_ram.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_ram.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_dual_port_ram.vhd(39): near "A54QDc6QRgxu7g9lRzpF": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_opt_OFF_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package hyper_opt_pkg
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:31 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv 
+-- Compiling package fft_ii_0_example_design_test_program_sv_unit
+-- Importing package avalon_utilities_pkg
+-- Importing package verbosity_pkg
+-- Compiling module test_program
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv(337): (vlog-2697) MSB of part-select into 'data' is out of bounds.
+
+Top level modules:
+	test_program
+End time: 13:42:31 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_rom
+-- Compiling architecture rtl of altera_fft_dual_port_rom
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv 
+-- Compiling module altera_avalon_st_source_bfm
+-- Importing package verbosity_pkg
+-- Importing package avalon_utilities_pkg
+
+Top level modules:
+	altera_avalon_st_source_bfm
+End time: 13:42:30 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_out_pipe.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_out_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_out_pipe.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_stg_out_pipe.vhd(39): near "EcIP4T1D": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_addr_control.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_addr_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_addr_control.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_addr_control.vhd(39): near "cutOK0Xc6EGV": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_fp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package altera_lnsim_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_fp
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_ii_0_example_design_core
+
+Top level modules:
+	fft_ii_0_example_design_core
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:46 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_enable_control.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_enable_control
+-- Compiling architecture rtl of auk_dspip_r22sdf_enable_control
+End time: 13:42:46 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_ram
+-- Compiling architecture rtl of altera_fft_dual_port_ram
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_top.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_top.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_top.vhd(39): near "maD": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:32 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/hyper_pipeline_interface.v 
+
+Top level modules:
+End time: 13:42:32 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_text_pkg
+-- Compiling package body auk_dspip_text_pkg
+-- Loading package auk_dspip_text_pkg
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:32 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_text_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_text_pkg
+-- Compiling package body auk_dspip_text_pkg
+-- Loading package auk_dspip_text_pkg
+End time: 13:42:33 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:42 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_twrom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_r22sdf_twrom
+-- Compiling architecture rtl of auk_dspip_r22sdf_twrom
+End time: 13:42:42 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_text_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_core
+-- Compiling architecture rtl of auk_dspip_r22sdf_core
+End time: 13:42:46 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package altera_lnsim_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:31 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/counter_module.sv 
+
+Top level modules:
+End time: 13:42:32 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_ii_0_example_design
+
+Top level modules:
+	fft_ii_0_example_design
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_top
+-- Compiling architecture str of auk_dspip_r22sdf_top
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package fft_ii_0_example_design_test_program_sv_unit
+-- Importing package avalon_utilities_pkg
+-- Importing package verbosity_pkg
+-- Compiling module test_program
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_test_program.sv(337): (vlog-2697) MSB of part-select into 'data' is out of bounds.
+
+Top level modules:
+	test_program
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_core.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_core.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_core.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_core.vhd(39): near "68": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bf_control.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bf_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bf_control.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bf_control.vhd(39): near "wjISKAOsD78llM71Qnko": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_mult_add.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_mult_add.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:51 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_mult_add.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_mult_add.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_mult_add.vhd(39): near "88": syntax error
+End time: 13:42:51 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:32 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_math_pkg
+-- Compiling package body auk_dspip_math_pkg
+-- Loading package auk_dspip_math_pkg
+End time: 13:42:32 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_avalon_reset_source
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_reset_source
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_adder_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_adder_fp
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:31 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_core.sv 
+-- Compiling module fft_ii_0_example_design_core
+
+Top level modules:
+	fft_ii_0_example_design_core
+End time: 13:42:31 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_bfi_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_bfi_fp
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_reverse_carry_adder.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_reverse_carry_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_reverse_carry_adder.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_bit_reverse_reverse_carry_adder.vhd(39): near "Lf8wNVZyXtG4Oy5UOzkL": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:46 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_r22sdf_delay
+-- Compiling architecture rtl of auk_dspip_r22sdf_delay
+End time: 13:42:46 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_delay.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_r22sdf_delay
+-- Compiling architecture rtl of auk_dspip_r22sdf_delay
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:38 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_cpx
+-- Compiling architecture rtl of apn_fft_mult_cpx
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:38 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_single_port_rom
+-- Compiling architecture rtl of altera_fft_single_port_rom
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_avalon_st_sink_bfm
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_st_sink_bfm
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_adder_fp.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_adder_fp.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_cma_adder_fp.vhd(39): near "+": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_text_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_core
+-- Compiling architecture rtl of auk_dspip_r22sdf_core
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_stg_pipe
+-- Compiling architecture rtl of auk_dspip_r22sdf_stg_pipe
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v} {1 {vlog -work work -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_pipeline_interface.v}} {0 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_pipeline_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:48 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_pipeline_interface.v 
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_pipeline_interface.v(37): syntax error in protected region.
+
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_pipeline_interface.v(37): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+End time: 13:42:48 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0
+
+} {5.0 6.0 7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:35 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_adder_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_adder_fp
+End time: 13:42:35 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_twrom.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_twrom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_twrom.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_twrom.vhd(39): near "ciYyRzuMlJQy3LFnTK3A": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_clock_source.sv 
+-- Compiling module altera_avalon_clock_source
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_clock_source
+End time: 13:42:30 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_avalon_streaming_block_sink.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_avalon_streaming_block_sink
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_sink
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:38 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_can
+-- Compiling architecture rtl of apn_fft_mult_can
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx_1825.v}} {0 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx_1825.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:48 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx_1825.v 
+** Error: (vlog-13069) C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx_1825.v(37): syntax error in protected region.
+
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx_1825.v(37): (vlog-13205) Syntax error found in the scope following '<protected>'. Is there a missing '::'?
+End time: 13:42:48 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0
+
+} {5.0 6.0 7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_addsub.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_addsub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_addsub.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_addsub.vhd(39): near "XhTYuFZRGyvFuG1NVOGC": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:42 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Compiling package auk_dspip_r22sdf_lib_pkg
+End time: 13:42:42 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:36 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_counter
+-- Compiling architecture rtl of auk_dspip_r22sdf_counter
+End time: 13:42:36 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_cpx
+-- Compiling architecture rtl of apn_fft_mult_cpx
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_core.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_bit_reverse_core
+-- Compiling architecture rtl of auk_dspip_bit_reverse_core
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_stg_out_pipe
+-- Compiling architecture rtl of auk_dspip_r22sdf_stg_out_pipe
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:33 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling package auk_dspip_lib_pkg
+End time: 13:42:33 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_stg_out_pipe
+-- Compiling architecture rtl of auk_dspip_r22sdf_stg_out_pipe
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_delay.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_delay.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_delay.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_delay.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_delay.vhd(39): near "6": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_fft_pkg.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_fft_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_fft_pkg.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_fft_pkg.vhd(39): near "vT6D7R3xan88M4WYoDOV": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:51 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_cpx.vhd(39): near "7": syntax error
+End time: 13:42:51 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_source_bfm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_avalon_st_source_bfm
+-- Importing package verbosity_pkg
+-- Importing package avalon_utilities_pkg
+
+Top level modules:
+	altera_avalon_st_source_bfm
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_reset_source.sv 
+-- Compiling module altera_avalon_reset_source
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_reset_source
+End time: 13:42:30 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_single_port_rom.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_single_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:51 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_single_port_rom.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/altera_fft_single_port_rom.vhd(39): near "CRqW8Y34nSfSuo9Kpqxt": syntax error
+End time: 13:42:51 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_adder_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_adder_fp
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_source.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_source.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_source.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_source.vhd(39): near "gblhhh5B6CYtHmJGiRBr": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfii.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfii.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:49 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfii.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_bfii.vhd(39): near "nG": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_bfi_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_bfi_fp
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity altera_fft_mult_add
+-- Compiling architecture rtl of altera_fft_mult_add
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_mult_add_new
+-- Compiling architecture rtl of altera_fft_mult_add_new
+-- Loading package altera_mf_components
+-- Compiling entity altera_fft_mult_add_old
+-- Compiling architecture rtl of altera_fft_mult_add_old
+End time: 13:42:38 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bf_control
+-- Compiling architecture rtl of auk_dspip_r22sdf_bf_control
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_opt_OFF_pkg.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_opt_OFF_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_opt_OFF_pkg.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/hyper_opt_OFF_pkg.vhd(39): near "g": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_counter
+-- Compiling architecture rtl of auk_dspip_r22sdf_counter
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_mult_add.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity altera_fft_mult_add
+-- Compiling architecture rtl of altera_fft_mult_add
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_mult_add_new
+-- Compiling architecture rtl of altera_fft_mult_add_new
+-- Loading package altera_mf_components
+-- Compiling entity altera_fft_mult_add_old
+-- Compiling architecture rtl of altera_fft_mult_add_old
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_lib_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Compiling package auk_dspip_r22sdf_lib_pkg
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bf_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bf_control
+-- Compiling architecture rtl of auk_dspip_r22sdf_bf_control
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_bfi.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_bfi
+-- Compiling architecture rtl2 of auk_dspip_r22sdf_bfi
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_single_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_single_port_rom
+-- Compiling architecture rtl of altera_fft_single_port_rom
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:35 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity auk_dspip_bit_reverse_reverse_carry_adder
+-- Compiling architecture rtl of auk_dspip_bit_reverse_reverse_carry_adder
+End time: 13:42:35 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_lib_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling package auk_dspip_lib_pkg
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_roundsat.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity auk_dspip_roundsat
+-- Compiling architecture beh of auk_dspip_roundsat
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_sink.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_sink.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:48 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_sink.vhd 
+-- Loading package STANDARD
+** Warning: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_sink.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_avalon_streaming_block_sink.vhd(39): near "9": syntax error
+End time: 13:42:49 on Apr 07,2023, Elapsed time: 0:00:01
+Errors: 1, Warnings: 1
+
+} {7.0 8.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_can.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_can.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:51 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_can.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/apn_fft_mult_can.vhd(39): near "AmkXRcDSs2nklHbn3jxy": syntax error
+End time: 13:42:51 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:42 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stage.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_stage
+-- Compiling architecture rtl of auk_dspip_r22sdf_stage
+End time: 13:42:42 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_counter.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_counter.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_counter.vhd(39): near "WAWO4wn2aFHhW6z0IEGb": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_lib_pkg.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_lib_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:50 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_lib_pkg.vhd 
+-- Loading package STANDARD
+** Error: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/aldec/auk_dspip_r22sdf_lib_pkg.vhd(39): near "MeOWVMhyiYaIlvAO7cSt": syntax error
+End time: 13:42:50 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+
+} {6.0 7.0} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:37 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/altera_fft_dual_port_rom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_rom
+-- Compiling architecture rtl of altera_fft_dual_port_rom
+End time: 13:42:37 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:36 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma_adder_fp
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma_adder_fp
+End time: 13:42:36 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/auk_dspip_math_pkg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_math_pkg
+-- Compiling package body auk_dspip_math_pkg
+-- Loading package auk_dspip_math_pkg
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/avalon_utilities_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package avalon_utilities_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_can.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_can
+-- Compiling architecture rtl of apn_fft_mult_can
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design_tb.v} {1 {vlog -work work -stats=none {C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\fft_ii_0_example_design_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_ii_0_example_design_tb
+
+Top level modules:
+	fft_ii_0_example_design_tb
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv}} {1 {vlog -work work -sv {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/altera_avalon_st_sink_bfm.sv 
+-- Compiling module altera_avalon_st_sink_bfm
+-- Importing package verbosity_pkg
+
+Top level modules:
+	altera_avalon_st_sink_bfm
+End time: 13:42:30 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_cma.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package altera_lnsim_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_cma
+-- Compiling architecture rtl of auk_dspip_r22sdf_cma
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/verbosity_pkg.sv} {1 {vlog -work work -sv -stats=none {C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package verbosity_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/verbosity_pkg.sv}} {1 {vlog -work work -sv {C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:30 on Apr 07,2023
+vlog -reportprogress 300 -work work -sv C:\Users\Z-Gar\Documents\School\BENG - Level 6\7660 - Digital System Design\Project\fft_ii_0_example_design\src\verbosity_pkg.sv 
+-- Compiling package verbosity_pkg
+
+Top level modules:
+	--none--
+End time: 13:42:30 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:32 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/apn_fft_mult_cpx_1825.v 
+
+Top level modules:
+End time: 13:42:32 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v}} {1 {vlog -work work {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:31 on Apr 07,2023
+vlog -reportprogress 300 -work work C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/fft_ii_0_example_design.v 
+-- Compiling module fft_ii_0_example_design
+
+Top level modules:
+	fft_ii_0_example_design
+End time: 13:42:31 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 13:42:45 on Apr 07,2023
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_addsub.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Loading package auk_dspip_math_pkg
+-- Loading package hyper_opt_pkg
+-- Loading package auk_dspip_r22sdf_lib_pkg
+-- Compiling entity auk_dspip_r22sdf_addsub
+-- Compiling architecture rtl of auk_dspip_r22sdf_addsub
+End time: 13:42:45 on Apr 07,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/fft_ii_0_example_design/src/mentor/auk_dspip_r22sdf_stg_pipe.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_r22sdf_stg_pipe
+-- Compiling architecture rtl of auk_dspip_r22sdf_stg_pipe
+
+} {} {}}
