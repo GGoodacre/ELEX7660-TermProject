@@ -1,0 +1,101 @@
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.servo_tb
+# vsim -gui work.servo_tb 
+# Start time: 15:46:50 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.servo_tb
+# End time: 15:48:36 on Apr 07,2023, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 7
+# vsim -gui work.servo_tb 
+# Start time: 15:48:36 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.servo_tb
+# End time: 15:51:43 on Apr 07,2023, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 2
+# vsim -gui work.servo_tb 
+# Start time: 15:51:43 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# ** Note: $stop    : C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv(19)
+#    Time: 40400 ns  Iteration: 1  Instance: /servo_tb
+# Break in Module servo_tb at C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv line 19
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.servo_tb
+# End time: 15:53:54 on Apr 07,2023, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 2
+# vsim -gui work.servo_tb 
+# Start time: 15:53:54 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# ** Note: $stop    : C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv(19)
+#    Time: 40000400 ns  Iteration: 1  Instance: /servo_tb
+# Break in Module servo_tb at C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv line 19
+# Compile of servo.sv failed with 3 errors.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+vsim -gui work.servo_tb
+# End time: 15:57:04 on Apr 07,2023, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 2
+# vsim -gui work.servo_tb 
+# Start time: 15:57:04 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# ** Note: $stop    : C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv(19)
+#    Time: 40000400 ns  Iteration: 1  Instance: /servo_tb
+# Break in Module servo_tb at C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv line 19
+# Compile of servo.sv was successful.
+# Compile of servo_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.servo_tb
+# End time: 15:58:03 on Apr 07,2023, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim -gui work.servo_tb 
+# Start time: 15:58:03 on Apr 07,2023
+# Loading sv_std.std
+# Loading work.servo_tb
+# Loading work.servo
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/servo_tb/*
+run -all
+# ** Note: $stop    : C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv(19)
+#    Time: 40000400 ns  Iteration: 1  Instance: /servo_tb
+# Break in Module servo_tb at C:/Users/HP USER/Documents/BCIT/6000/7660 - Digital Design/ELEX7660-TermProject/servo_tb.sv line 19
