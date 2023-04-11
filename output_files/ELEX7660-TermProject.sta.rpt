@@ -1,5 +1,5 @@
 Timing Analyzer report for ELEX7660-TermProject
-Sat Apr 08 13:16:22 2023
+Tue Apr 11 13:48:23 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -102,14 +102,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.76        ;
+; Average used               ; 2.07        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  25.8%      ;
-;     Processor 3            ;  25.2%      ;
-;     Processor 4            ;  25.0%      ;
+;     Processor 2            ;  36.0%      ;
+;     Processor 3            ;  35.4%      ;
+;     Processor 4            ;  35.1%      ;
 +----------------------------+-------------+
 
 
@@ -118,8 +118,8 @@ refer to the applicable agreement for further details.
 +------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                        ; Status ; Read at                  ;
 +------------------------------------------------------+--------+--------------------------+
-; ELEX7660_TermProject.sdc                             ; OK     ; Sat Apr 08 13:16:15 2023 ;
-; fft/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Sat Apr 08 13:16:15 2023 ;
+; ELEX7660_TermProject.sdc                             ; OK     ; Tue Apr 11 13:48:11 2023 ;
+; fft/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Tue Apr 11 13:48:11 2023 ;
 +------------------------------------------------------+--------+--------------------------+
 
 
@@ -138,8 +138,8 @@ refer to the applicable agreement for further details.
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 46.98 MHz  ; 46.98 MHz       ; FPGA_CLK1_50        ;      ;
-; 102.72 MHz ; 102.72 MHz      ; altera_reserved_tck ;      ;
+; 34.41 MHz  ; 34.41 MHz       ; FPGA_CLK1_50        ;      ;
+; 109.47 MHz ; 109.47 MHz      ; altera_reserved_tck ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -155,8 +155,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; -0.643 ; -4.791        ;
-; altera_reserved_tck ; 11.799 ; 0.000         ;
+; FPGA_CLK1_50        ; -4.532 ; -104.893      ;
+; altera_reserved_tck ; 12.099 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -165,8 +165,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.217 ; 0.000         ;
-; altera_reserved_tck ; 0.484 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.347 ; 0.000         ;
+; altera_reserved_tck ; 0.565 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -175,8 +175,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 15.982 ; 0.000         ;
-; altera_reserved_tck ; 30.055 ; 0.000         ;
+; FPGA_CLK1_50        ; 6.365  ; 0.000         ;
+; altera_reserved_tck ; 30.283 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -185,8 +185,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.571 ; 0.000         ;
-; altera_reserved_tck ; 0.722 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.447 ; 0.000         ;
+; altera_reserved_tck ; 0.898 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -195,8 +195,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; FPGA_CLK1_50        ; 8.876  ; 0.000              ;
-; altera_reserved_tck ; 15.830 ; 0.000              ;
+; FPGA_CLK1_50        ; 8.864  ; 0.000              ;
+; altera_reserved_tck ; 15.801 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -207,7 +207,7 @@ The design MTBF is not calculated because there are no specified synchronizers i
 Number of Synchronizer Chains Found: 1
 Shortest Synchronizer Chain: 3 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-Worst Case Available Settling Time: 51.232 ns
+Worst Case Available Settling Time: 51.166 ns
 
 
 
@@ -217,8 +217,8 @@ Worst Case Available Settling Time: 51.232 ns
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 47.01 MHz  ; 47.01 MHz       ; FPGA_CLK1_50        ;      ;
-; 104.26 MHz ; 104.26 MHz      ; altera_reserved_tck ;      ;
+; 34.58 MHz  ; 34.58 MHz       ; FPGA_CLK1_50        ;      ;
+; 109.81 MHz ; 109.81 MHz      ; altera_reserved_tck ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -228,8 +228,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; -0.636 ; -3.912        ;
-; altera_reserved_tck ; 11.871 ; 0.000         ;
+; FPGA_CLK1_50        ; -4.458 ; -101.006      ;
+; altera_reserved_tck ; 12.113 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -238,8 +238,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.104 ; 0.000         ;
-; altera_reserved_tck ; 0.493 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.221 ; 0.000         ;
+; altera_reserved_tck ; 0.546 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -248,8 +248,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 16.224 ; 0.000         ;
-; altera_reserved_tck ; 30.200 ; 0.000         ;
+; FPGA_CLK1_50        ; 6.609  ; 0.000         ;
+; altera_reserved_tck ; 30.349 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -258,8 +258,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.444 ; 0.000         ;
-; altera_reserved_tck ; 0.653 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.369 ; 0.000         ;
+; altera_reserved_tck ; 0.852 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -268,8 +268,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; FPGA_CLK1_50        ; 8.813  ; 0.000             ;
-; altera_reserved_tck ; 15.835 ; 0.000             ;
+; FPGA_CLK1_50        ; 8.798  ; 0.000             ;
+; altera_reserved_tck ; 15.808 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -280,7 +280,7 @@ The design MTBF is not calculated because there are no specified synchronizers i
 Number of Synchronizer Chains Found: 1
 Shortest Synchronizer Chain: 3 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-Worst Case Available Settling Time: 51.502 ns
+Worst Case Available Settling Time: 51.408 ns
 
 
 
@@ -290,8 +290,8 @@ Worst Case Available Settling Time: 51.502 ns
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 3.723  ; 0.000         ;
-; altera_reserved_tck ; 13.880 ; 0.000         ;
+; FPGA_CLK1_50        ; 1.066  ; 0.000         ;
+; altera_reserved_tck ; 14.101 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -300,8 +300,8 @@ Worst Case Available Settling Time: 51.502 ns
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.140 ; 0.000         ;
-; altera_reserved_tck ; 0.188 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.175 ; 0.000         ;
+; altera_reserved_tck ; 0.296 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -310,8 +310,8 @@ Worst Case Available Settling Time: 51.502 ns
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 17.126 ; 0.000         ;
-; altera_reserved_tck ; 31.197 ; 0.000         ;
+; FPGA_CLK1_50        ; 7.146  ; 0.000         ;
+; altera_reserved_tck ; 31.426 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -320,8 +320,8 @@ Worst Case Available Settling Time: 51.502 ns
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.336 ; 0.000         ;
-; FPGA_CLK1_50        ; 0.376 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.287 ; 0.000         ;
+; altera_reserved_tck ; 0.475 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -330,8 +330,8 @@ Worst Case Available Settling Time: 51.502 ns
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; FPGA_CLK1_50        ; 8.763  ; 0.000              ;
-; altera_reserved_tck ; 15.814 ; 0.000              ;
+; FPGA_CLK1_50        ; 8.793  ; 0.000              ;
+; altera_reserved_tck ; 15.790 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -342,7 +342,7 @@ The design MTBF is not calculated because there are no specified synchronizers i
 Number of Synchronizer Chains Found: 1
 Shortest Synchronizer Chain: 3 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-Worst Case Available Settling Time: 54.027 ns
+Worst Case Available Settling Time: 54.124 ns
 
 
 
@@ -352,8 +352,8 @@ Worst Case Available Settling Time: 54.027 ns
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 4.113  ; 0.000         ;
-; altera_reserved_tck ; 14.184 ; 0.000         ;
+; FPGA_CLK1_50        ; 1.770  ; 0.000         ;
+; altera_reserved_tck ; 14.383 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -362,8 +362,8 @@ Worst Case Available Settling Time: 54.027 ns
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.101 ; 0.000         ;
-; altera_reserved_tck ; 0.175 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.151 ; 0.000         ;
+; altera_reserved_tck ; 0.266 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -372,8 +372,8 @@ Worst Case Available Settling Time: 54.027 ns
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; FPGA_CLK1_50        ; 17.494 ; 0.000         ;
-; altera_reserved_tck ; 31.401 ; 0.000         ;
+; FPGA_CLK1_50        ; 7.420  ; 0.000         ;
+; altera_reserved_tck ; 31.562 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -382,8 +382,8 @@ Worst Case Available Settling Time: 54.027 ns
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; FPGA_CLK1_50        ; 0.276 ; 0.000         ;
-; altera_reserved_tck ; 0.288 ; 0.000         ;
+; FPGA_CLK1_50        ; 0.213 ; 0.000         ;
+; altera_reserved_tck ; 0.421 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -392,8 +392,8 @@ Worst Case Available Settling Time: 54.027 ns
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; FPGA_CLK1_50        ; 8.758  ; 0.000             ;
-; altera_reserved_tck ; 15.828 ; 0.000             ;
+; FPGA_CLK1_50        ; 8.784  ; 0.000             ;
+; altera_reserved_tck ; 15.802 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -404,23 +404,23 @@ The design MTBF is not calculated because there are no specified synchronizers i
 Number of Synchronizer Chains Found: 1
 Shortest Synchronizer Chain: 3 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-Worst Case Available Settling Time: 54.602 ns
+Worst Case Available Settling Time: 54.655 ns
 
 
 
 
-+----------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                              ;
-+----------------------+--------+-------+----------+---------+---------------------+
-; Clock                ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+----------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack     ; -0.643 ; 0.101 ; 15.982   ; 0.276   ; 8.758               ;
-;  FPGA_CLK1_50        ; -0.643 ; 0.101 ; 15.982   ; 0.276   ; 8.758               ;
-;  altera_reserved_tck ; 11.799 ; 0.175 ; 30.055   ; 0.288   ; 15.814              ;
-; Design-wide TNS      ; -4.791 ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
-;  FPGA_CLK1_50        ; -4.791 ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
-;  altera_reserved_tck ; 0.000  ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
-+----------------------+--------+-------+----------+---------+---------------------+
++------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                ;
++----------------------+----------+-------+----------+---------+---------------------+
+; Clock                ; Setup    ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++----------------------+----------+-------+----------+---------+---------------------+
+; Worst-case Slack     ; -4.532   ; 0.151 ; 6.365    ; 0.213   ; 8.784               ;
+;  FPGA_CLK1_50        ; -4.532   ; 0.151 ; 6.365    ; 0.213   ; 8.784               ;
+;  altera_reserved_tck ; 12.099   ; 0.266 ; 30.283   ; 0.421   ; 15.790              ;
+; Design-wide TNS      ; -104.893 ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
+;  FPGA_CLK1_50        ; -104.893 ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
+;  altera_reserved_tck ; 0.000    ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
++----------------------+----------+-------+----------+---------+---------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -436,8 +436,31 @@ Worst Case Available Settling Time: 54.602 ns
 ; servo_pulse[2]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; servo_pulse[3]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; servo_pulse[4]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[5]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[6]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[7]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[8]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[9]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[10]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[11]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[12]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[13]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[14]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; servo_pulse[15]     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; test_pin1           ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; test_pin2           ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[0]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[1]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[2]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[3]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[4]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[5]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[6]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[7]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[8]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[9]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[10]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; test_bus[11]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 +---------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
 
@@ -447,8 +470,8 @@ Worst Case Available Settling Time: 54.602 ns
 +---------------------+--------------+-----------------+-----------------+
 ; Pin                 ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +---------------------+--------------+-----------------+-----------------+
-; FPGA_CLK1_50        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; reset_n             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; FPGA_CLK1_50        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; ADC_SDO             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; altera_reserved_tms ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; altera_reserved_tck ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -466,11 +489,34 @@ Worst Case Available Settling Time: 54.602 ns
 ; ADC_SDI             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
-; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
 ; servo_pulse[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[8]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[9]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[10]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[11]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[12]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[13]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[14]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; servo_pulse[15]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
 ; test_pin1           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
 ; test_pin2           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; test_bus[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; test_bus[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; test_bus[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.6e-07 V                    ; 2.41 V              ; -0.0463 V           ; 0.201 V                              ; 0.131 V                              ; 4.61e-10 s                  ; 4.53e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.6e-07 V                   ; 2.41 V             ; -0.0463 V          ; 0.201 V                             ; 0.131 V                             ; 4.61e-10 s                 ; 4.53e-10 s                 ; No                        ; Yes                       ;
+; test_bus[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; test_bus[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; test_bus[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; test_bus[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; test_bus[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; test_bus[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; test_bus[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
+; test_bus[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0568 V           ; 0.173 V                              ; 0.113 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0568 V          ; 0.173 V                             ; 0.113 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
+; test_bus[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.07e-07 V                   ; 2.36 V              ; -0.0231 V           ; 0.14 V                               ; 0.089 V                              ; 4.52e-10 s                  ; 4.35e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.07e-07 V                  ; 2.36 V             ; -0.0231 V          ; 0.14 V                              ; 0.089 V                             ; 4.52e-10 s                 ; 4.35e-10 s                 ; No                        ; Yes                       ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.2e-07 V                    ; 2.41 V              ; -0.0623 V           ; 0.154 V                              ; 0.113 V                              ; 4.52e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.2e-07 V                   ; 2.41 V             ; -0.0623 V          ; 0.154 V                             ; 0.113 V                             ; 4.52e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -485,11 +531,34 @@ Worst Case Available Settling Time: 54.602 ns
 ; ADC_SDI             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; servo_pulse[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; servo_pulse[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
-; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; servo_pulse[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
 ; servo_pulse[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[8]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[9]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[10]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[11]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[12]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; servo_pulse[13]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[14]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[15]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
 ; test_pin1           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
 ; test_pin2           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; test_bus[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; test_bus[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; test_bus[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.96e-05 V                   ; 2.38 V              ; -0.0306 V           ; 0.23 V                               ; 0.206 V                              ; 4.83e-10 s                  ; 5.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.96e-05 V                  ; 2.38 V             ; -0.0306 V          ; 0.23 V                              ; 0.206 V                             ; 4.83e-10 s                 ; 5.01e-10 s                 ; No                        ; Yes                       ;
+; test_bus[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; test_bus[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; test_bus[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; test_bus[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; test_bus[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; test_bus[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; test_bus[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
+; test_bus[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.0374 V           ; 0.189 V                              ; 0.158 V                              ; 4.66e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.0374 V          ; 0.189 V                             ; 0.158 V                             ; 4.66e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
+; test_bus[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.49e-05 V                   ; 2.34 V              ; -0.0118 V           ; 0.182 V                              ; 0.051 V                              ; 4.81e-10 s                  ; 4.83e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 3.49e-05 V                  ; 2.34 V             ; -0.0118 V          ; 0.182 V                             ; 0.051 V                             ; 4.81e-10 s                 ; 4.83e-10 s                 ; Yes                       ; Yes                       ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.5e-05 V                    ; 2.37 V              ; -0.0421 V           ; 0.168 V                              ; 0.143 V                              ; 4.71e-10 s                  ; 4.57e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.5e-05 V                   ; 2.37 V             ; -0.0421 V          ; 0.168 V                             ; 0.143 V                             ; 4.71e-10 s                 ; 4.57e-10 s                 ; No                        ; Yes                       ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -504,11 +573,34 @@ Worst Case Available Settling Time: 54.602 ns
 ; ADC_SDI             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; servo_pulse[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; servo_pulse[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
-; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; servo_pulse[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; servo_pulse[8]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; servo_pulse[9]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; servo_pulse[10]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[11]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; servo_pulse[12]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; servo_pulse[13]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[14]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; servo_pulse[15]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
 ; test_pin1           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 ; test_pin2           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; test_bus[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; test_bus[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; test_bus[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.25e-06 V                   ; 2.9 V               ; -0.107 V            ; 0.378 V                              ; 0.16 V                               ; 2.87e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 4.25e-06 V                  ; 2.9 V              ; -0.107 V           ; 0.378 V                             ; 0.16 V                              ; 2.87e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
+; test_bus[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; test_bus[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; test_bus[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; test_bus[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; test_bus[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; test_bus[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; test_bus[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
+; test_bus[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.119 V            ; 0.326 V                              ; 0.298 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.119 V           ; 0.326 V                             ; 0.298 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
+; test_bus[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.54e-06 V                   ; 2.81 V              ; -0.0578 V           ; 0.303 V                              ; 0.28 V                               ; 2.93e-10 s                  ; 3.01e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 3.54e-06 V                  ; 2.81 V             ; -0.0578 V          ; 0.303 V                             ; 0.28 V                              ; 2.93e-10 s                 ; 3.01e-10 s                 ; No                        ; No                        ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.79e-06 V                   ; 2.9 V               ; -0.122 V            ; 0.313 V                              ; 0.277 V                              ; 2.78e-10 s                  ; 2.7e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 3.79e-06 V                  ; 2.9 V              ; -0.122 V           ; 0.313 V                             ; 0.277 V                             ; 2.78e-10 s                 ; 2.7e-10 s                  ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -523,11 +615,34 @@ Worst Case Available Settling Time: 54.602 ns
 ; ADC_SDI             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
-; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
 ; servo_pulse[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
 ; servo_pulse[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; servo_pulse[8]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; servo_pulse[9]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; servo_pulse[10]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[11]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; servo_pulse[12]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; servo_pulse[13]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[14]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; servo_pulse[15]     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
 ; test_pin1           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
 ; test_pin2           ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; test_bus[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; test_bus[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; test_bus[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000247 V                   ; 2.85 V              ; -0.0711 V           ; 0.204 V                              ; 0.181 V                              ; 4.55e-10 s                  ; 4.49e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000247 V                  ; 2.85 V             ; -0.0711 V          ; 0.204 V                             ; 0.181 V                             ; 4.55e-10 s                 ; 4.49e-10 s                 ; No                        ; No                        ;
+; test_bus[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; test_bus[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; test_bus[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
+; test_bus[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; test_bus[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; test_bus[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; test_bus[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
+; test_bus[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0805 V           ; 0.358 V                              ; 0.156 V                              ; 3.01e-10 s                  ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0805 V          ; 0.358 V                             ; 0.156 V                             ; 3.01e-10 s                 ; 4.34e-10 s                 ; No                        ; No                        ;
+; test_bus[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000213 V                   ; 2.79 V              ; -0.0324 V           ; 0.139 V                              ; 0.119 V                              ; 4.42e-10 s                  ; 4.33e-10 s                  ; No                         ; Yes                        ; 2.75 V                      ; 0.000213 V                  ; 2.79 V             ; -0.0324 V          ; 0.139 V                             ; 0.119 V                             ; 4.42e-10 s                 ; 4.33e-10 s                 ; No                        ; Yes                       ;
 ; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000219 V                   ; 2.85 V              ; -0.0938 V           ; 0.339 V                              ; 0.156 V                              ; 3.08e-10 s                  ; 4.29e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000219 V                  ; 2.85 V             ; -0.0938 V          ; 0.339 V                             ; 0.156 V                             ; 3.08e-10 s                 ; 4.29e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
@@ -537,8 +652,8 @@ Worst Case Available Settling Time: 54.602 ns
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 707      ; 0        ; 31       ; 0        ;
-; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 530674   ; 810720   ; 436      ; 665      ;
+; altera_reserved_tck ; altera_reserved_tck ; 740      ; 0        ; 31       ; 0        ;
+; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 26181638 ; 41836608 ; 1097     ; 3329     ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -548,8 +663,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 707      ; 0        ; 31       ; 0        ;
-; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 530674   ; 810720   ; 436      ; 665      ;
+; altera_reserved_tck ; altera_reserved_tck ; 740      ; 0        ; 31       ; 0        ;
+; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 26181638 ; 41836608 ; 1097     ; 3329     ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -559,8 +674,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 53       ; 0        ; 0        ; 0        ;
-; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 491      ; 0        ; 0        ; 4        ;
+; altera_reserved_tck ; altera_reserved_tck ; 51       ; 0        ; 0        ; 0        ;
+; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 633      ; 569      ; 0        ; 578      ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -570,8 +685,8 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 53       ; 0        ; 0        ; 0        ;
-; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 491      ; 0        ; 0        ; 4        ;
+; altera_reserved_tck ; altera_reserved_tck ; 51       ; 0        ; 0        ; 0        ;
+; FPGA_CLK1_50        ; FPGA_CLK1_50        ; 633      ; 569      ; 0        ; 578      ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -594,11 +709,11 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Property                        ; Setup ; Hold ;
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
-; Unconstrained Clocks            ; 3     ; 3    ;
+; Unconstrained Clocks            ; 17    ; 17   ;
 ; Unconstrained Input Ports       ; 5     ; 5    ;
-; Unconstrained Input Port Paths  ; 598   ; 598  ;
-; Unconstrained Output Ports      ; 7     ; 7    ;
-; Unconstrained Output Port Paths ; 17    ; 17   ;
+; Unconstrained Input Port Paths  ; 935   ; 935  ;
+; Unconstrained Output Ports      ; 34    ; 34   ;
+; Unconstrained Output Port Paths ; 44    ; 44   ;
 +---------------------------------+-------+------+
 
 
@@ -612,6 +727,20 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1] ;                     ; Base ; Unconstrained ;
 ; servo:servo_0|clk500                                            ;                     ; Base ; Unconstrained ;
 ; servo:servo_1|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_2|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_3|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_4|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_5|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_6|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_7|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_8|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_9|clk500                                            ;                     ; Base ; Unconstrained ;
+; servo:servo_10|clk500                                           ;                     ; Base ; Unconstrained ;
+; servo:servo_11|clk500                                           ;                     ; Base ; Unconstrained ;
+; servo:servo_12|clk500                                           ;                     ; Base ; Unconstrained ;
+; servo:servo_13|clk500                                           ;                     ; Base ; Unconstrained ;
+; servo:servo_14|clk500                                           ;                     ; Base ; Unconstrained ;
+; servo:servo_15|clk500                                           ;                     ; Base ; Unconstrained ;
 +-----------------------------------------------------------------+---------------------+------+---------------+
 
 
@@ -624,7 +753,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; FPGA_CLK1_50        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; Partially constrained                                                                ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; reset_n             ; Partially constrained                                                                ;
+; reset_n             ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+--------------------------------------------------------------------------------------+
 
 
@@ -639,7 +768,34 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; altera_reserved_tdo ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; servo_pulse[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; servo_pulse[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[0]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[1]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[2]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[3]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[4]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[5]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[6]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[7]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[8]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[9]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[10]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[11]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; test_pin1           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_pin2           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+---------------------------------------------------------------------------------------+
 
 
@@ -652,7 +808,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; FPGA_CLK1_50        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; Partially constrained                                                                ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; reset_n             ; Partially constrained                                                                ;
+; reset_n             ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+--------------------------------------------------------------------------------------+
 
 
@@ -667,7 +823,34 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; altera_reserved_tdo ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; servo_pulse[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; servo_pulse[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; servo_pulse[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[0]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[1]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[2]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[3]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[4]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[5]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[6]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[7]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[8]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[9]         ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[10]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_bus[11]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; test_pin1           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; test_pin2           ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+---------------------------------------------------------------------------------------+
 
 
@@ -677,7 +860,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Apr 08 13:16:13 2023
+    Info: Processing started: Tue Apr 11 13:48:07 2023
 Info: Command: quartus_sta ELEX7660-TermProject -c ELEX7660-TermProject
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -703,195 +886,319 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): if { [string equal quartus_fit $::TimeQuestInfo(nameofexecutable)] } { set_max_delay -to [get_ports { altera_reserved_tdo } ] 0 }
         Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
 Info (332104): Reading SDC File: 'ELEX7660_TermProject.sdc'
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(3): rgb_clk could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(3): rgb_cs could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(3): rgb_dc could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(3): rgb_din could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-Warning (332049): Ignored set_max_skew at ELEX7660_TermProject.sdc(3): Argument -to with value [get_ports {rgb_clk rgb_cs rgb_dc rgb_din}] contains zero elements File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-    Info (332050): set_max_skew -to [get_ports {rgb_clk rgb_cs rgb_dc rgb_din}] 10 File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 3
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(5): LED[*] could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 5
-Warning (332049): Ignored set_false_path at ELEX7660_TermProject.sdc(5): Argument <to> is an empty collection File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 5
-    Info (332050): set_false_path -from * -to [get_ports LED[*]] File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 5
-Warning (332174): Ignored filter at ELEX7660_TermProject.sdc(6): rgb_res could not be matched with a port File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 6
-Warning (332049): Ignored set_false_path at ELEX7660_TermProject.sdc(6): Argument <to> is an empty collection File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 6
-    Info (332050): set_false_path -from * -to [get_ports rgb_res] File: C:/Users/Z-Gar/Documents/School/BENG - Level 6/7660 - Digital System Design/Project/ELEX7660_TermProject.sdc Line: 6
 Info (332104): Reading SDC File: 'fft/synthesis/submodules/altera_reset_controller.sdc'
-Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_0|pulseOut is being clocked by servo:servo_0|clk500
 Warning (332060): Node: fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1] was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register fft_interface:fft_0|adcinterface:adcinterface_0|result[0] is being clocked by fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1]
+Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_0|timeCount[21] is being clocked by servo:servo_0|clk500
 Warning (332060): Node: servo:servo_1|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_1|pulseOut is being clocked by servo:servo_1|clk500
+    Info (13166): Register servo:servo_1|timeCount[21] is being clocked by servo:servo_1|clk500
+Warning (332060): Node: servo:servo_2|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_2|timeCount[21] is being clocked by servo:servo_2|clk500
+Warning (332060): Node: servo:servo_3|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_3|timeCount[21] is being clocked by servo:servo_3|clk500
+Warning (332060): Node: servo:servo_4|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_4|timeCount[21] is being clocked by servo:servo_4|clk500
+Warning (332060): Node: servo:servo_5|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_5|timeCount[21] is being clocked by servo:servo_5|clk500
+Warning (332060): Node: servo:servo_6|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_6|timeCount[21] is being clocked by servo:servo_6|clk500
+Warning (332060): Node: servo:servo_7|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_7|timeCount[21] is being clocked by servo:servo_7|clk500
+Warning (332060): Node: servo:servo_8|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_8|timeCount[21] is being clocked by servo:servo_8|clk500
+Warning (332060): Node: servo:servo_9|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_9|timeCount[21] is being clocked by servo:servo_9|clk500
+Warning (332060): Node: servo:servo_10|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_10|timeCount[21] is being clocked by servo:servo_10|clk500
+Warning (332060): Node: servo:servo_11|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_11|timeCount[21] is being clocked by servo:servo_11|clk500
+Warning (332060): Node: servo:servo_12|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_12|timeCount[21] is being clocked by servo:servo_12|clk500
+Warning (332060): Node: servo:servo_13|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_13|timeCount[21] is being clocked by servo:servo_13|clk500
+Warning (332060): Node: servo:servo_14|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_14|timeCount[21] is being clocked by servo:servo_14|clk500
+Warning (332060): Node: servo:servo_15|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_15|timeCount[21] is being clocked by servo:servo_15|clk500
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.643
+Info (332146): Worst-case setup slack is -4.532
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.643              -4.791 FPGA_CLK1_50 
-    Info (332119):    11.799               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.217
+    Info (332119):    -4.532            -104.893 FPGA_CLK1_50 
+    Info (332119):    12.099               0.000 altera_reserved_tck 
+Info (332146): Worst-case hold slack is 0.347
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.217               0.000 FPGA_CLK1_50 
-    Info (332119):     0.484               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 15.982
+    Info (332119):     0.347               0.000 FPGA_CLK1_50 
+    Info (332119):     0.565               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 6.365
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.982               0.000 FPGA_CLK1_50 
-    Info (332119):    30.055               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.571
+    Info (332119):     6.365               0.000 FPGA_CLK1_50 
+    Info (332119):    30.283               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.447
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.571               0.000 FPGA_CLK1_50 
-    Info (332119):     0.722               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.876
+    Info (332119):     0.447               0.000 FPGA_CLK1_50 
+    Info (332119):     0.898               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.864
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.876               0.000 FPGA_CLK1_50 
-    Info (332119):    15.830               0.000 altera_reserved_tck 
+    Info (332119):     8.864               0.000 FPGA_CLK1_50 
+    Info (332119):    15.801               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 1 synchronizer chains.
     Info (332114): The design MTBF is not calculated because there are no specified synchronizers in the design.
     Info (332114): Number of Synchronizer Chains Found: 1
     Info (332114): Shortest Synchronizer Chain: 3 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-    Info (332114): Worst Case Available Settling Time: 51.232 ns
+    Info (332114): Worst Case Available Settling Time: 51.166 ns
     Info (332114): 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_0|pulseOut is being clocked by servo:servo_0|clk500
 Warning (332060): Node: fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1] was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register fft_interface:fft_0|adcinterface:adcinterface_0|result[0] is being clocked by fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1]
+Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_0|timeCount[21] is being clocked by servo:servo_0|clk500
 Warning (332060): Node: servo:servo_1|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_1|pulseOut is being clocked by servo:servo_1|clk500
+    Info (13166): Register servo:servo_1|timeCount[21] is being clocked by servo:servo_1|clk500
+Warning (332060): Node: servo:servo_2|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_2|timeCount[21] is being clocked by servo:servo_2|clk500
+Warning (332060): Node: servo:servo_3|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_3|timeCount[21] is being clocked by servo:servo_3|clk500
+Warning (332060): Node: servo:servo_4|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_4|timeCount[21] is being clocked by servo:servo_4|clk500
+Warning (332060): Node: servo:servo_5|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_5|timeCount[21] is being clocked by servo:servo_5|clk500
+Warning (332060): Node: servo:servo_6|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_6|timeCount[21] is being clocked by servo:servo_6|clk500
+Warning (332060): Node: servo:servo_7|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_7|timeCount[21] is being clocked by servo:servo_7|clk500
+Warning (332060): Node: servo:servo_8|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_8|timeCount[21] is being clocked by servo:servo_8|clk500
+Warning (332060): Node: servo:servo_9|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_9|timeCount[21] is being clocked by servo:servo_9|clk500
+Warning (332060): Node: servo:servo_10|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_10|timeCount[21] is being clocked by servo:servo_10|clk500
+Warning (332060): Node: servo:servo_11|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_11|timeCount[21] is being clocked by servo:servo_11|clk500
+Warning (332060): Node: servo:servo_12|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_12|timeCount[21] is being clocked by servo:servo_12|clk500
+Warning (332060): Node: servo:servo_13|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_13|timeCount[21] is being clocked by servo:servo_13|clk500
+Warning (332060): Node: servo:servo_14|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_14|timeCount[21] is being clocked by servo:servo_14|clk500
+Warning (332060): Node: servo:servo_15|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_15|timeCount[21] is being clocked by servo:servo_15|clk500
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.636
+Info (332146): Worst-case setup slack is -4.458
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.636              -3.912 FPGA_CLK1_50 
-    Info (332119):    11.871               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.104
+    Info (332119):    -4.458            -101.006 FPGA_CLK1_50 
+    Info (332119):    12.113               0.000 altera_reserved_tck 
+Info (332146): Worst-case hold slack is 0.221
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.104               0.000 FPGA_CLK1_50 
-    Info (332119):     0.493               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 16.224
+    Info (332119):     0.221               0.000 FPGA_CLK1_50 
+    Info (332119):     0.546               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 6.609
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    16.224               0.000 FPGA_CLK1_50 
-    Info (332119):    30.200               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.444
+    Info (332119):     6.609               0.000 FPGA_CLK1_50 
+    Info (332119):    30.349               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.369
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.444               0.000 FPGA_CLK1_50 
-    Info (332119):     0.653               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.813
+    Info (332119):     0.369               0.000 FPGA_CLK1_50 
+    Info (332119):     0.852               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.798
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.813               0.000 FPGA_CLK1_50 
-    Info (332119):    15.835               0.000 altera_reserved_tck 
+    Info (332119):     8.798               0.000 FPGA_CLK1_50 
+    Info (332119):    15.808               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 1 synchronizer chains.
     Info (332114): The design MTBF is not calculated because there are no specified synchronizers in the design.
     Info (332114): Number of Synchronizer Chains Found: 1
     Info (332114): Shortest Synchronizer Chain: 3 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-    Info (332114): Worst Case Available Settling Time: 51.502 ns
+    Info (332114): Worst Case Available Settling Time: 51.408 ns
     Info (332114): 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_0|pulseOut is being clocked by servo:servo_0|clk500
 Warning (332060): Node: fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1] was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register fft_interface:fft_0|adcinterface:adcinterface_0|result[0] is being clocked by fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1]
+Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_0|timeCount[21] is being clocked by servo:servo_0|clk500
 Warning (332060): Node: servo:servo_1|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_1|pulseOut is being clocked by servo:servo_1|clk500
+    Info (13166): Register servo:servo_1|timeCount[21] is being clocked by servo:servo_1|clk500
+Warning (332060): Node: servo:servo_2|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_2|timeCount[21] is being clocked by servo:servo_2|clk500
+Warning (332060): Node: servo:servo_3|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_3|timeCount[21] is being clocked by servo:servo_3|clk500
+Warning (332060): Node: servo:servo_4|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_4|timeCount[21] is being clocked by servo:servo_4|clk500
+Warning (332060): Node: servo:servo_5|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_5|timeCount[21] is being clocked by servo:servo_5|clk500
+Warning (332060): Node: servo:servo_6|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_6|timeCount[21] is being clocked by servo:servo_6|clk500
+Warning (332060): Node: servo:servo_7|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_7|timeCount[21] is being clocked by servo:servo_7|clk500
+Warning (332060): Node: servo:servo_8|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_8|timeCount[21] is being clocked by servo:servo_8|clk500
+Warning (332060): Node: servo:servo_9|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_9|timeCount[21] is being clocked by servo:servo_9|clk500
+Warning (332060): Node: servo:servo_10|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_10|timeCount[21] is being clocked by servo:servo_10|clk500
+Warning (332060): Node: servo:servo_11|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_11|timeCount[21] is being clocked by servo:servo_11|clk500
+Warning (332060): Node: servo:servo_12|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_12|timeCount[21] is being clocked by servo:servo_12|clk500
+Warning (332060): Node: servo:servo_13|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_13|timeCount[21] is being clocked by servo:servo_13|clk500
+Warning (332060): Node: servo:servo_14|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_14|timeCount[21] is being clocked by servo:servo_14|clk500
+Warning (332060): Node: servo:servo_15|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_15|timeCount[21] is being clocked by servo:servo_15|clk500
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 3.723
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+Info (332146): Worst-case setup slack is 1.066
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     3.723               0.000 FPGA_CLK1_50 
-    Info (332119):    13.880               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.140
+    Info (332119):     1.066               0.000 FPGA_CLK1_50 
+    Info (332119):    14.101               0.000 altera_reserved_tck 
+Info (332146): Worst-case hold slack is 0.175
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.140               0.000 FPGA_CLK1_50 
-    Info (332119):     0.188               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 17.126
+    Info (332119):     0.175               0.000 FPGA_CLK1_50 
+    Info (332119):     0.296               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 7.146
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    17.126               0.000 FPGA_CLK1_50 
-    Info (332119):    31.197               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.336
+    Info (332119):     7.146               0.000 FPGA_CLK1_50 
+    Info (332119):    31.426               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.287
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.336               0.000 altera_reserved_tck 
-    Info (332119):     0.376               0.000 FPGA_CLK1_50 
-Info (332146): Worst-case minimum pulse width slack is 8.763
+    Info (332119):     0.287               0.000 FPGA_CLK1_50 
+    Info (332119):     0.475               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.793
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.763               0.000 FPGA_CLK1_50 
-    Info (332119):    15.814               0.000 altera_reserved_tck 
+    Info (332119):     8.793               0.000 FPGA_CLK1_50 
+    Info (332119):    15.790               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 1 synchronizer chains.
     Info (332114): The design MTBF is not calculated because there are no specified synchronizers in the design.
     Info (332114): Number of Synchronizer Chains Found: 1
     Info (332114): Shortest Synchronizer Chain: 3 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-    Info (332114): Worst Case Available Settling Time: 54.027 ns
+    Info (332114): Worst Case Available Settling Time: 54.124 ns
     Info (332114): 
 Info: Analyzing Fast 1100mV 0C Model
-Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_0|pulseOut is being clocked by servo:servo_0|clk500
 Warning (332060): Node: fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1] was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register fft_interface:fft_0|adcinterface:adcinterface_0|result[0] is being clocked by fft_interface:fft_0|adcinterface:adcinterface_0|convst_count[1]
+Warning (332060): Node: servo:servo_0|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_0|timeCount[21] is being clocked by servo:servo_0|clk500
 Warning (332060): Node: servo:servo_1|clk500 was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register servo:servo_1|pulseOut is being clocked by servo:servo_1|clk500
+    Info (13166): Register servo:servo_1|timeCount[21] is being clocked by servo:servo_1|clk500
+Warning (332060): Node: servo:servo_2|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_2|timeCount[21] is being clocked by servo:servo_2|clk500
+Warning (332060): Node: servo:servo_3|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_3|timeCount[21] is being clocked by servo:servo_3|clk500
+Warning (332060): Node: servo:servo_4|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_4|timeCount[21] is being clocked by servo:servo_4|clk500
+Warning (332060): Node: servo:servo_5|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_5|timeCount[21] is being clocked by servo:servo_5|clk500
+Warning (332060): Node: servo:servo_6|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_6|timeCount[21] is being clocked by servo:servo_6|clk500
+Warning (332060): Node: servo:servo_7|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_7|timeCount[21] is being clocked by servo:servo_7|clk500
+Warning (332060): Node: servo:servo_8|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_8|timeCount[21] is being clocked by servo:servo_8|clk500
+Warning (332060): Node: servo:servo_9|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_9|timeCount[21] is being clocked by servo:servo_9|clk500
+Warning (332060): Node: servo:servo_10|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_10|timeCount[21] is being clocked by servo:servo_10|clk500
+Warning (332060): Node: servo:servo_11|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_11|timeCount[21] is being clocked by servo:servo_11|clk500
+Warning (332060): Node: servo:servo_12|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_12|timeCount[21] is being clocked by servo:servo_12|clk500
+Warning (332060): Node: servo:servo_13|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_13|timeCount[21] is being clocked by servo:servo_13|clk500
+Warning (332060): Node: servo:servo_14|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_14|timeCount[21] is being clocked by servo:servo_14|clk500
+Warning (332060): Node: servo:servo_15|clk500 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register servo:servo_15|timeCount[21] is being clocked by servo:servo_15|clk500
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: fft_0|pll0|altpll_component|auto_generated|generic_pll1~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Info (332146): Worst-case setup slack is 4.113
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: fft_0|pll0|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+Info (332146): Worst-case setup slack is 1.770
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     4.113               0.000 FPGA_CLK1_50 
-    Info (332119):    14.184               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.101
+    Info (332119):     1.770               0.000 FPGA_CLK1_50 
+    Info (332119):    14.383               0.000 altera_reserved_tck 
+Info (332146): Worst-case hold slack is 0.151
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.101               0.000 FPGA_CLK1_50 
-    Info (332119):     0.175               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 17.494
+    Info (332119):     0.151               0.000 FPGA_CLK1_50 
+    Info (332119):     0.266               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 7.420
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    17.494               0.000 FPGA_CLK1_50 
-    Info (332119):    31.401               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.276
+    Info (332119):     7.420               0.000 FPGA_CLK1_50 
+    Info (332119):    31.562               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.213
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.276               0.000 FPGA_CLK1_50 
-    Info (332119):     0.288               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 8.758
+    Info (332119):     0.213               0.000 FPGA_CLK1_50 
+    Info (332119):     0.421               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 8.784
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.758               0.000 FPGA_CLK1_50 
-    Info (332119):    15.828               0.000 altera_reserved_tck 
+    Info (332119):     8.784               0.000 FPGA_CLK1_50 
+    Info (332119):    15.802               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 1 synchronizer chains.
     Info (332114): The design MTBF is not calculated because there are no specified synchronizers in the design.
     Info (332114): Number of Synchronizer Chains Found: 1
     Info (332114): Shortest Synchronizer Chain: 3 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 1.000
-    Info (332114): Worst Case Available Settling Time: 54.602 ns
+    Info (332114): Worst Case Available Settling Time: 54.655 ns
     Info (332114): 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 24 warnings
-    Info: Peak virtual memory: 5153 megabytes
-    Info: Processing ended: Sat Apr 08 13:16:22 2023
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:12
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 79 warnings
+    Info: Peak virtual memory: 5217 megabytes
+    Info: Processing ended: Tue Apr 11 13:48:23 2023
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:17
 
 

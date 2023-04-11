@@ -4,10 +4,10 @@ preplace inst fft.fft_ii_0 -pg 1 -lvl 2 -y 30
 preplace inst fft -pg 1 -lvl 1 -y 40 -regy -20
 preplace inst fft.clk_0 -pg 1 -lvl 1 -y 90
 preplace netloc EXPORT<net_container>fft</net_container>(MASTER)fft.source,(MASTER)fft_ii_0.source) 1 2 1 N
-preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)fft_ii_0.sink,(SLAVE)fft.sink) 1 0 2 NJ 80 NJ
-preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)fft.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)fft_ii_0.sink,(SLAVE)fft.sink) 1 0 2 NJ 160 NJ
+preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)fft.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
 preplace netloc POINT_TO_POINT<net_container>fft</net_container>(SLAVE)fft_ii_0.rst,(MASTER)clk_0.clk_reset) 1 1 1 280
-preplace netloc POINT_TO_POINT<net_container>fft</net_container>(SLAVE)fft_ii_0.clk,(MASTER)clk_0.clk) 1 1 1 260
-preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)clk_0.clk_in,(SLAVE)fft.clk) 1 0 1 NJ
-levelinfo -pg 1 0 50 480
-levelinfo -hier fft 60 90 310 410
+preplace netloc EXPORT<net_container>fft</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)fft.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>fft</net_container>(MASTER)clk_0.clk,(SLAVE)fft_ii_0.clk) 1 1 1 260
+levelinfo -pg 1 0 50 500
+levelinfo -hier fft 60 90 330 430

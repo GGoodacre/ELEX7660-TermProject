@@ -1,20 +1,20 @@
-Fitter Status : Successful - Sat Apr 08 13:16:03 2023
+Fitter Status : Successful - Tue Apr 11 13:28:14 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : ELEX7660-TermProject
 Top-level Entity Name : ELEX7660_TermProject
 Family : Cyclone V
 Device : 5CSEMA4U23C6
 Timing Models : Final
-Logic utilization (in ALMs) : 1,059 / 15,880 ( 7 % )
-Total registers : 2293
-Total pins : 13 / 314 ( 4 % )
+Logic utilization (in ALMs) : 2,060 / 15,880 ( 13 % )
+Total registers : 4015
+Total pins : 36 / 314 ( 11 % )
 Total virtual pins : 0
-Total block memory bits : 1,260 / 2,764,800 ( < 1 % )
-Total RAM Blocks : 4 / 270 ( 1 % )
-Total DSP Blocks : 8 / 84 ( 10 % )
+Total block memory bits : 2,040 / 2,764,800 ( < 1 % )
+Total RAM Blocks : 5 / 270 ( 2 % )
+Total DSP Blocks : 22 / 84 ( 26 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
 Total HSSI PMA TX Serializers : 0
-Total PLLs : 0 / 5 ( 0 % )
+Total PLLs : 1 / 5 ( 20 % )
 Total DLLs : 0 / 4 ( 0 % )

@@ -68,8 +68,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 232)
 		(input)
-		(text "sink_data[32..0]" (rect 0 0 62 12)(font "Arial" (font_size 8)))
-		(text "sink_data[32..0]" (rect 4 221 100 232)(font "Arial" (font_size 8)))
+		(text "sink_data[29..0]" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "sink_data[29..0]" (rect 4 221 100 232)(font "Arial" (font_size 8)))
 		(line (pt 0 232)(pt 112 232)(line_width 3))
 	)
 	(port
@@ -117,8 +117,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 384 152)
 		(output)
-		(text "source_data[31..0]" (rect 0 0 73 12)(font "Arial" (font_size 8)))
-		(text "source_data[31..0]" (rect 292 141 400 152)(font "Arial" (font_size 8)))
+		(text "source_data[38..0]" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "source_data[38..0]" (rect 290 141 398 152)(font "Arial" (font_size 8)))
 		(line (pt 384 152)(pt 256 152)(line_width 3))
 	)
 	(drawing

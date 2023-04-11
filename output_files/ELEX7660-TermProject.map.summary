@@ -1,17 +1,17 @@
-Analysis & Synthesis Status : Successful - Sat Apr 08 13:15:13 2023
+Analysis & Synthesis Status : Successful - Tue Apr 11 13:26:47 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : ELEX7660-TermProject
 Top-level Entity Name : ELEX7660_TermProject
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 2358
-Total pins : 13
+Total registers : 4225
+Total pins : 36
 Total virtual pins : 0
-Total block memory bits : 1,260
-Total DSP Blocks : 8
+Total block memory bits : 2,040
+Total DSP Blocks : 22
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
 Total HSSI PMA TX Serializers : 0
-Total PLLs : 0
+Total PLLs : 1
 Total DLLs : 0

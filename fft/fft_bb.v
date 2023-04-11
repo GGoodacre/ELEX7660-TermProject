@@ -22,11 +22,11 @@ module fft (
 	input	[1:0]	sink_error;
 	input		sink_startofpacket;
 	input		sink_endofpacket;
-	input	[32:0]	sink_data;
+	input	[29:0]	sink_data;
 	output		source_valid;
 	input		source_ready;
 	output	[1:0]	source_error;
 	output		source_startofpacket;
 	output		source_endofpacket;
-	output	[31:0]	source_data;
+	output	[38:0]	source_data;
 endmodule

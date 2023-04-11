@@ -9,10 +9,10 @@ Lab 3 - ELEX 7660
 module adcinterface(
     input logic clk, reset_n,
     input logic [2:0] chan,
-    input ADC_SDO,
+    input logic ADC_SDO,
 
-    output logic [11:0] result,
-    output ADC_CONVST, ADC_SCK, ADC_SDI);
+    output logic signed [11:0] result,
+    output logic ADC_CONVST, ADC_SCK, ADC_SDI);
 
     logic [3:0] convst_count;
     logic [5:0] sdi;
@@ -32,7 +32,7 @@ module adcinterface(
 
     always_ff @(posedge ADC_CONVST or negedge ADC_SCK)
         if(ADC_CONVST)
-            sdi <= {1'b1,chan[0],chan[2:1],1'b0,1'b0}; //Creates the 6bit word to send through SDI
+            sdi <= {1'b1,chan[0],chan[2:1],1'b1,1'b0}; //Creates the 6bit word to send through SDI
         else
             sdi <= sdi<<1; //Shifts through the created word to send each bit
     

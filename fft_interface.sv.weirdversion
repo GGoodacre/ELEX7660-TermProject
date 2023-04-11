@@ -1,0 +1,480 @@
+// ELEX7660 Lab Project
+// FFT Interface
+// Garnett Goodacre
+// 
+// 2023-04-06
+// Connects the ADC to the FFT module and outputs the magnitudes
+localparam LENGTH = 16;
+localparam FFT_LENGTH = 16;
+localparam DATA = 12;
+localparam OUTPUT = 17;
+
+
+module fft_interface
+   #( parameter FS,
+      parameter FCLK
+    )
+    (
+    //Control Signals
+    input logic clk, reset_n,
+    //DFT Resultant Magnitudes
+    output logic [OUTPUT-1:0] mag [0:LENGTH-1],
+    //ADC
+    output logic ADC_CONVST, ADC_SCK, ADC_SDI,
+    input logic ADC_SDO,
+    input logic [2:0] ADC_channel,
+    output logic test_pin1,
+    output logic test_pin2,
+    output logic [11:0] test_bus
+);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// ADC MODULE
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+logic adc_clk;
+pll pll0 ( .inclk0(clk), .c0(adc_clk) ) ;
+
+
+
+logic signed [11:0] ADC_result;
+
+adcinterface adcinterface_0(
+    .clk(adc_clk),
+    .reset_n,
+    .chan(ADC_channel),
+    .result(ADC_result),
+    .ADC_CONVST,
+    .ADC_SCK,
+    .ADC_SDI,
+    .ADC_SDO
+);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// FFT Module
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//Sink Variables
+logic        sink_eop;
+logic [2:0]  sink_error;
+logic        sink_ready;
+logic        sink_valid;
+logic        sink_sop;
+logic [DATA*2+$clog2(FFT_LENGTH)+1:0] sink_data;
+//Source Variables
+logic        source_eop;
+logic [2:0]  source_error;
+logic        source_ready;
+logic        source_valid;
+logic        source_sop;
+logic [OUTPUT*2+$clog2(FFT_LENGTH):0] source_data;
+
+fft fft_0 (
+		.clk_clk              (clk),            //    clk.clk
+		.reset_reset_n        (reset_n),        //  reset.reset_n
+		.sink_valid           (sink_valid),     //   sink.valid
+		.sink_ready           (sink_ready),     //       .ready
+		.sink_error           (sink_error),     //       .error
+		.sink_startofpacket   (sink_sop),       //       .startofpacket
+		.sink_endofpacket     (sink_eop),       //       .endofpacket
+		.sink_data            (sink_data),      //       .data
+		.source_valid         (source_valid),   // source.valid
+		.source_ready         (source_ready),   //       .ready
+		.source_error         (source_error),   //       .error
+		.source_startofpacket (source_sop),     //       .startofpacket
+		.source_endofpacket   (source_eop),     //       .endofpacket
+		.source_data          (source_data)     //       .data
+	);
+
+// NOT USED
+assign sink_error = 2'b00;
+assign source_ready = 1;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// SQRT
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+logic           sqrt_start [FFT_LENGTH-1:0];
+logic           sqrt_busy [FFT_LENGTH-1:0];
+logic           sqrt_valid [FFT_LENGTH-1:0];
+logic [35:0]    sqrt_rad [FFT_LENGTH-1:0];
+logic [35:0]    sqrt_root [FFT_LENGTH-1:0];
+logic [35:0]    sqrt_rem [FFT_LENGTH-1:0];
+
+sqrt_int #(.WIDTH(36)) sqrt_0 (
+        .clk    (clk),
+        .start  (sqrt_start[0]),
+        .busy   (sqrt_busy[0]),
+        .valid  (sqrt_valid[0]),
+        .rad    (sqrt_rad[0]),
+        .root   (sqrt_root[0]),
+        .rem    (sqrt_rem[0])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_1 (
+        .clk    (clk),
+        .start  (sqrt_start[1]),
+        .busy   (sqrt_busy[1]),
+        .valid  (sqrt_valid[1]),
+        .rad    (sqrt_rad[1]),
+        .root   (sqrt_root[1]),
+        .rem    (sqrt_rem[1])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_2 (
+        .clk    (clk),
+        .start  (sqrt_start[2]),
+        .busy   (sqrt_busy[2]),
+        .valid  (sqrt_valid[2]),
+        .rad    (sqrt_rad[2]),
+        .root   (sqrt_root[2]),
+        .rem    (sqrt_rem[2])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_3 (
+        .clk    (clk),
+        .start  (sqrt_start[3]),
+        .busy   (sqrt_busy[3]),
+        .valid  (sqrt_valid[3]),
+        .rad    (sqrt_rad[3]),
+        .root   (sqrt_root[3]),
+        .rem    (sqrt_rem[3])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_4 (
+        .clk    (clk),
+        .start  (sqrt_start[4]),
+        .busy   (sqrt_busy[4]),
+        .valid  (sqrt_valid[4]),
+        .rad    (sqrt_rad[4]),
+        .root   (sqrt_root[4]),
+        .rem    (sqrt_rem[4])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_5 (
+        .clk    (clk),
+        .start  (sqrt_start[5]),
+        .busy   (sqrt_busy[5]),
+        .valid  (sqrt_valid[5]),
+        .rad    (sqrt_rad[5]),
+        .root   (sqrt_root[5]),
+        .rem    (sqrt_rem[5])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_6 (
+        .clk    (clk),
+        .start  (sqrt_start[6]),
+        .busy   (sqrt_busy[6]),
+        .valid  (sqrt_valid[6]),
+        .rad    (sqrt_rad[6]),
+        .root   (sqrt_root[6]),
+        .rem    (sqrt_rem[6])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_7 (
+        .clk    (clk),
+        .start  (sqrt_start[7]),
+        .busy   (sqrt_busy[7]),
+        .valid  (sqrt_valid[7]),
+        .rad    (sqrt_rad[7]),
+        .root   (sqrt_root[7]),
+        .rem    (sqrt_rem[7])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_8 (
+        .clk    (clk),
+        .start  (sqrt_start[8]),
+        .busy   (sqrt_busy[8]),
+        .valid  (sqrt_valid[8]),
+        .rad    (sqrt_rad[8]),
+        .root   (sqrt_root[8]),
+        .rem    (sqrt_rem[8])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_9 (
+        .clk    (clk),
+        .start  (sqrt_start[9]),
+        .busy   (sqrt_busy[9]),
+        .valid  (sqrt_valid[9]),
+        .rad    (sqrt_rad[9]),
+        .root   (sqrt_root[9]),
+        .rem    (sqrt_rem[9])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_10 (
+        .clk    (clk),
+        .start  (sqrt_start[10]),
+        .busy   (sqrt_busy[10]),
+        .valid  (sqrt_valid[10]),
+        .rad    (sqrt_rad[10]),
+        .root   (sqrt_root[10]),
+        .rem    (sqrt_rem[10])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_11 (
+        .clk    (clk),
+        .start  (sqrt_start[11]),
+        .busy   (sqrt_busy[11]),
+        .valid  (sqrt_valid[11]),
+        .rad    (sqrt_rad[11]),
+        .root   (sqrt_root[11]),
+        .rem    (sqrt_rem[11])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_12 (
+        .clk    (clk),
+        .start  (sqrt_start[12]),
+        .busy   (sqrt_busy[12]),
+        .valid  (sqrt_valid[12]),
+        .rad    (sqrt_rad[12]),
+        .root   (sqrt_root[12]),
+        .rem    (sqrt_rem[12])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_13 (
+        .clk    (clk),
+        .start  (sqrt_start[13]),
+        .busy   (sqrt_busy[13]),
+        .valid  (sqrt_valid[13]),
+        .rad    (sqrt_rad[13]),
+        .root   (sqrt_root[13]),
+        .rem    (sqrt_rem[13])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_14 (
+        .clk    (clk),
+        .start  (sqrt_start[14]),
+        .busy   (sqrt_busy[14]),
+        .valid  (sqrt_valid[14]),
+        .rad    (sqrt_rad[14]),
+        .root   (sqrt_root[14]),
+        .rem    (sqrt_rem[14])
+    );
+
+sqrt_int #(.WIDTH(36)) sqrt_15 (
+        .clk    (clk),
+        .start  (sqrt_start[15]),
+        .busy   (sqrt_busy[15]),
+        .valid  (sqrt_valid[15]),
+        .rad    (sqrt_rad[15]),
+        .root   (sqrt_root[15]),
+        .rem    (sqrt_rem[15])
+    );
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// SAMPLING
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+logic [31:0] sample_count;
+logic [OUTPUT-1:0] samples [0:FFT_LENGTH-1];
+logic signed [OUTPUT+1:0] corrected_samples [0:FFT_LENGTH-1];
+logic new_sample;
+
+logic signed [OUTPUT-1:0] test_samples [0:FFT_LENGTH-1];
+always_comb
+begin
+    test_samples[0] = 2047;
+    test_samples[1] = 2047;
+    test_samples[2] = 2047;
+    test_samples[3] = 2047;
+    test_samples[4] = 2047;
+    test_samples[5] = 2047;
+    test_samples[6] = 2047;
+    test_samples[7] = 2047;
+    test_samples[8] = -2047;
+    test_samples[9] = -2047;
+    test_samples[10] = -2047;
+    test_samples[11] = -2047;
+    test_samples[12] = -2047;
+    test_samples[13] = -2047;
+    test_samples[14] = -2047;
+    test_samples[15] = 2047;
+end
+// Samples the ADC every 1/FS seconds and initiates a FFT 
+always_ff @(posedge clk or negedge reset_n) 
+begin
+    if(~reset_n) // Asyncronous Reset
+    begin
+        sample_count <= 0; 
+        new_sample <= 0;
+        for(int i = 0; i < FFT_LENGTH; i = i + 1)
+        begin
+            samples[i] <= '0;
+        end
+    end
+    else if (sample_count >= FCLK-FS) //Clock Divider Samples every 1/FS seconds
+    begin
+        sample_count <= 0;
+        //Samples Shift
+        samples[0] <= ADC_result;  //Inputs latest sampled point]
+        for(int i = 0; i < FFT_LENGTH-1; i = i + 1)
+        begin
+            samples[i+1] <= samples[i];
+        end
+        //Start FFT
+        new_sample <= 1;
+    end
+    else 
+    begin
+        sample_count <= sample_count + FS;
+        new_sample <= 0;
+    end
+end
+
+always_comb
+begin
+    for(int i = 0; i < FFT_LENGTH; i = i + 1)
+    begin
+        corrected_samples[i] <= samples[i]-2048;
+    end
+end
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// FFT SINK
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+logic [$clog2(FFT_LENGTH)+1:0] current_sample;
+
+localparam sink_real_start = DATA*2+$clog2(FFT_LENGTH)+1;
+localparam sink_real_end = DATA+$clog2(FFT_LENGTH)+2;
+localparam sink_img_start = DATA+$clog2(FFT_LENGTH)+1;
+localparam sink_img_end = $clog2(FFT_LENGTH)+2;
+localparam ffpts = $clog2(FFT_LENGTH)+1;
+
+//NOT USED
+assign sink_data[ffpts-1:0] = '0;
+assign sink_data[sink_img_start:sink_img_end] = '0;
+
+// Input into the FFT module
+always_ff @(posedge clk or negedge reset_n)
+begin
+    if(~reset_n)
+    begin
+        sink_data[sink_real_start:sink_real_end] <= 0;
+        sink_data[ffpts] <= 1;
+
+        current_sample <= 0;
+        sink_eop <= 0;
+        sink_sop <= 0;
+        sink_valid <= 0;
+    end
+    else
+    begin
+        if(current_sample >= FFT_LENGTH)
+        begin
+            sink_eop <= 0;
+            sink_valid <= 0;
+            current_sample <= 0;
+        end
+        else if(sink_valid&sink_ready)
+        begin
+            sink_data[sink_real_start:sink_real_end] <= test_samples[current_sample][OUTPUT-1:0];
+            sink_data[ffpts] <= 1;
+
+            sink_sop <= 0;
+            current_sample <= current_sample + 1;
+            if (current_sample >= FFT_LENGTH-1)
+                sink_eop <= 1;
+        end
+        else if(new_sample&sink_ready&~source_valid)
+        begin
+            sink_data[sink_real_start:sink_real_end] <= test_samples[current_sample][OUTPUT-1:0];
+            sink_data[ffpts] <= 1;
+
+            current_sample <= current_sample + 1;
+            sink_sop <= 1;
+            sink_valid <= 1;
+        end
+    end
+end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//FFT SOURCE
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+localparam source_real_start = OUTPUT*2+$clog2(FFT_LENGTH);
+localparam source_real_end = OUTPUT+$clog2(FFT_LENGTH)+1;
+localparam source_img_start = OUTPUT+$clog2(FFT_LENGTH);
+localparam source_img_end = $clog2(FFT_LENGTH)+1;
+
+logic [$clog2(LENGTH):0] current_result;
+logic [source_real_start:0] fft_result [0:LENGTH-1];
+
+always_ff @(negedge clk or negedge reset_n)
+begin
+    if(~reset_n)
+    begin
+        current_result <= 0;
+        for(int i = 0; i < LENGTH; i = i + 1)
+        begin
+            fft_result[i] <= '0;
+        end
+    end
+    else
+    begin
+        if(source_valid)
+        begin
+            fft_result[current_result] <= source_data;
+            current_result <= current_result + 1;
+        end
+        else
+        begin
+            current_result <= 0;
+        end
+    end
+end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// Magnitude Calculation
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+logic [$clog2(LENGTH):0] mag_count;
+logic [35:0] fft_real [FFT_LENGTH-1:0];
+logic [35:0] fft_img [FFT_LENGTH-1:0];
+logic sqrt_lock;
+
+always_comb
+begin
+    for(int i = 0; i < FFT_LENGTH; i = i + 1)
+    begin
+        if(fft_result[i][source_real_start] ==  1)
+            fft_real[i] = ~(fft_result[i][source_real_start:source_real_end]-1);
+        else
+            fft_real[i] = fft_result[i][source_real_start:source_real_end];
+        if(fft_result[i][source_img_start] == 1)
+            fft_img[i] = ~(fft_result[i][source_img_start:source_img_end]-1);
+        else
+            fft_img[i] = fft_result[i][source_img_start:source_img_end];
+        sqrt_rad[i] = fft_img[i]**2 + fft_real[i]**2;
+    end
+end
+
+
+always_ff @(posedge clk or negedge reset_n) 
+begin
+    if(~reset_n)
+    begin
+        for(int i = 0; i < LENGTH; i = i + 1)
+        begin
+            sqrt_start[i] <= 0;
+            mag[i] <= 0;
+        end
+    end
+    else
+    begin
+       for(int i = 0; i < LENGTH; i = i + 1)
+        begin
+            if(~sqrt_busy[i])
+            begin
+                sqrt_start[i] <= 1;
+            end
+            if(sqrt_valid[i])
+            begin
+                mag[i] <= sqrt_root[i];
+            end
+        end
+    end
+end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//Testing Pins
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+assign test_pin1 = sink_valid;
+assign test_pin2 = source_valid;
+assign test_bus = fft_real[1][13:2];
+
+endmodule
