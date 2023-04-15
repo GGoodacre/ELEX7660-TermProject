@@ -12,7 +12,7 @@ module servo(
     output logic pulseOut
     );
 
-    localparam dutyFactor = 24000; // factor for conversion from magnitude to duty cycle
+    localparam dutyFactor = 80000; // factor for conversion from magnitude to duty cycle
 
     logic [31:0] count500;
     logic [31:0] timeCount;
@@ -64,7 +64,28 @@ module servo(
             begin
                 timeCount <= 1*dutyFactor;
                 pulseOut <= 1;
-                duty <= (100*magnitude)<(95*dutyFactor) ? 100*magnitude : 95*dutyFactor;
+                if((100*magnitude)<(12*dutyFactor))
+                begin
+                    if((100*magnitude)<(2*dutyFactor))
+                    begin
+                        duty <= 2*dutyFactor;
+                    end
+                    else
+                    begin
+                        if((100*magnitude > (duty + 2500))||(100*magnitude < (duty-2500)))
+                        begin
+                            duty <= 100*magnitude;
+                        end
+                        else
+                        begin
+                            duty <= duty;
+                        end
+                    end
+                end
+                else
+                begin
+                    duty <= 12*dutyFactor;
+                end
             end        
         end
     end

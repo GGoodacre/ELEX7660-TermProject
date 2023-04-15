@@ -37,8 +37,8 @@ module ELEX7660_TermProject (
     //MODULES  
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    logic [16:0] mag [0:15];
-    fft_interface #(.FCLK(50000000), .FS(1600)) fft_0 
+    logic [63:0] mag [0:15];
+    fft_interface #(.FCLK(50000000), .FS(640)) fft_0 
         (
             .clk(FPGA_CLK1_50),
             .reset_n(sync_reset_n),
