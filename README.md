@@ -33,4 +33,4 @@ Author of PWM code and Circuitry
 
 Author of FFT Code
 
-[![Michael Andrews](https://media-exp1.licdn.com/dms/image/C5603AQGyt1dAC75fPQ/profile-displayphoto-shrink_800_800/0/1609993278505?e=1658361600&v=beta&t=rdH3prSpEyX7Fl4-O2noVDR5wyUUb0KhQuewCrafTK8)](https://www.linkedin.com/in/michael-andrews-b0ab8217a/)
+[![Garnett Goodacre](www.linkedin.com/in/garnett-goodacre-6b4708b9)
