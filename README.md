@@ -25,7 +25,7 @@ Credits:
 
 Author of PWM code and Circuitry
 
-[![Kurt Querengesser](https://media-exp1.licdn.com/dms/image/C5603AQGrgBTkykBlKQ/profile-displayphoto-shrink_200_200/0/1631942127837?e=1658361600&v=beta&t=vpEAgsTLOk_cjnBG9KAYYulb9IDrupyVI58InTzyYOE)](https://www.linkedin.com/in/kurt-querengesser/)
+<img src="https://media.licdn.com/dms/image/C5603AQGrgBTkykBlKQ/profile-displayphoto-shrink_800_800/0/1631942127837?e=1702512000&v=beta&t=3ACIGtRw-TY42mCWIFUQ9iohhIUP2sbdAf56cNrk94E" alt="Kurt Querengesser" style="width:100px ; height:100px;">
 
 
 
@@ -33,4 +33,4 @@ Author of PWM code and Circuitry
 
 Author of FFT Code
 
-[![Garnett Goodacre](https://media.licdn.com/dms/image/C5603AQFDvJeW3hdyWw/profile-displayphoto-shrink_800_800/0/1585168724073?e=1709769600&v=beta&t=it44ts5j02tkVfCLBlJQiF6Z_ANbabj0iYbrIEzTz00)](https://www.linkedin.com/in/garnett-goodacre-6b4708b9/)
+<img src="https://media.licdn.com/dms/image/C5603AQFDvJeW3hdyWw/profile-displayphoto-shrink_800_800/0/1585168722908?e=1702512000&v=beta&t=TfTjDooOISeaj4Ojy4J5kPZCWomk5zfMdDpiuV-fvbI" alt="Garnett Goodacre" style="width:100px ; height:100px;">
