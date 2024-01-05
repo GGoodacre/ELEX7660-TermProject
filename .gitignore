@@ -1,1 +1,6 @@
-*.flock
+*.flock,
+*.settings, 
+*.classpath, 
+*target, 
+*.project, 
+bin
