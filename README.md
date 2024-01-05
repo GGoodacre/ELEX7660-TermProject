@@ -33,4 +33,4 @@ Author of PWM code and Circuitry
 
 Author of FFT Code
 
-[![Garnett Goodacre](www.linkedin.com/in/garnett-goodacre-6b4708b9)
+[![Garnett Goodacre](https://media.licdn.com/dms/image/C5603AQFDvJeW3hdyWw/profile-displayphoto-shrink_800_800/0/1585168724073?e=1709769600&v=beta&t=it44ts5j02tkVfCLBlJQiF6Z_ANbabj0iYbrIEzTz00)](https://www.linkedin.com/in/garnett-goodacre-6b4708b9/)
